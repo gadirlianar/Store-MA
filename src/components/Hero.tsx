@@ -138,8 +138,8 @@ export default function Hero({ onOpenNotify }: HeroProps) {
             <Image
               src="/assets/reference/hero_shoe_left.png"
               alt="MAVRIC lateral profile left"
-              width={932}
-              height={449}
+              width={889}
+              height={415}
               className="w-full h-auto drop-shadow-[0_26px_40px_rgba(0,0,0,0.15)]"
               unoptimized
               priority
@@ -164,8 +164,8 @@ export default function Hero({ onOpenNotify }: HeroProps) {
             <Image
               src="/assets/reference/hero_shoe_right.png"
               alt="MAVRIC lateral profile right"
-              width={932}
-              height={449}
+              width={889}
+              height={415}
               className="w-full h-auto drop-shadow-[0_26px_40px_rgba(0,0,0,0.15)]"
               unoptimized
               priority
