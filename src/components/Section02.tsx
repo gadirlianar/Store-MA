@@ -50,10 +50,10 @@ export default function Section02() {
       photoSrc: "/assets/specs/spec_fullgrain.jpg",
     },
     {
-      id: "300-pairs",
-      title: "300 PAIRS",
-      subtitle: "Numbered. Then never again.",
-      tileChip: "EDITION 001/300",
+      id: "atelier-craft",
+      title: "ATELIER CRAFT",
+      subtitle: "Bespoke Italian precision",
+      tileChip: "MAVRIC ATELIER",
       isAccent: true, // Only filled-lime card with black dash & text (EV-11, §6)
       photoSrc: "/assets/specs/spec_300pairs.jpg",
     },
@@ -199,7 +199,7 @@ export default function Section02() {
           <div className="relative w-full max-w-[560px] aspect-square flex items-center justify-center rounded-2xl overflow-hidden shadow-[0_20px_45px_rgba(0,0,0,0.12)] bg-[#F1ECE5]">
             <Image
               src="/assets/reference/srigen_center_34.jpg"
-              alt="SRIGEN 001 uncropped three-quarter luxury volt sneaker"
+              alt="MAVRIC uncropped three-quarter luxury volt sneaker"
               fill
               sizes="(max-width: 1024px) 100vw, 560px"
               className="object-cover hover:scale-105 transition-transform duration-700 ease-out"

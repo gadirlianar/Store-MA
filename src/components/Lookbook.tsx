@@ -13,7 +13,7 @@ export default function Lookbook() {
       <div className="absolute inset-0 w-full h-full">
         <Image
           src="/assets/reference/lookbook_golden_hour.jpg"
-          alt="SRIGEN 001 IN THE WILD · Golden Hour Editorial"
+          alt="MAVRIC IN THE WILD · Golden Hour Editorial"
           fill
           className="w-full h-full object-cover object-center"
           priority

@@ -7,7 +7,7 @@ export default function OpeningSequence({ onComplete }: { onComplete?: () => voi
 
   // Phases:
   // 1: eyelets & lacing (0 - 800ms)
-  // 2: staggered SRIGEN wordmark + expanding lime underline (800ms - 1400ms)
+  // 2: staggered MAVRIC wordmark + expanding lime underline (800ms - 1400ms)
   // 3: loader group moves up ~115px (1400ms - 1900ms)
   // 4: full curtain wipe exit (1900ms - 2500ms)
   const [stage, setStage] = useState<"lacing" | "wordmark" | "shiftUp" | "exit">("lacing");
@@ -77,14 +77,14 @@ export default function OpeningSequence({ onComplete }: { onComplete?: () => voi
     C 120 12, 80 12, ${leftX} 30
   `;
 
-  // Staggered letters for SRIGEN per EV-02
+  // Staggered letters for MAVRIC
   const letters = [
-    { char: "S", offset: "translate-y-0" },
-    { char: "R", offset: "-translate-y-1" },
-    { char: "I", offset: "translate-y-1.5" },
-    { char: "G", offset: "-translate-y-0.5" },
-    { char: "E", offset: "translate-y-1" },
-    { char: "N", offset: "translate-y-0" },
+    { char: "M", offset: "translate-y-0" },
+    { char: "A", offset: "-translate-y-1" },
+    { char: "V", offset: "translate-y-1.5" },
+    { char: "R", offset: "-translate-y-0.5" },
+    { char: "I", offset: "translate-y-1" },
+    { char: "C", offset: "translate-y-0" },
   ];
 
   return (
@@ -148,7 +148,7 @@ export default function OpeningSequence({ onComplete }: { onComplete?: () => voi
           </svg>
         </div>
 
-        {/* Off-White SRIGEN Wordmark with Staggered Heights (EV-02) */}
+        {/* Off-White MAVRIC Wordmark with Staggered Heights (EV-02) */}
         <div
           className={`mt-4 flex flex-col items-center transition-all duration-500 ${
             stage !== "lacing" ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3"

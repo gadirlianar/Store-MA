@@ -44,7 +44,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   // Load from localStorage on mount after hydration
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("srigen_cart");
+      const saved = localStorage.getItem("mavric_cart");
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed)) {
@@ -59,7 +59,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   // Save to localStorage
   useEffect(() => {
     try {
-      localStorage.setItem("srigen_cart", JSON.stringify(items));
+      localStorage.setItem("mavric_cart", JSON.stringify(items));
     } catch {
       // Storage failed
     }

@@ -21,11 +21,11 @@ export default function NotFound() {
         </div>
 
         <h1 className="text-6xl sm:text-8xl md:text-9xl font-black uppercase tracking-tight leading-none mb-6">
-          DROP NOT FOUND
+          PAGE NOT FOUND
         </h1>
 
         <p className="text-sm sm:text-base text-[#6B6A65] max-w-lg mb-10 leading-relaxed font-sans">
-          The requested coordinate or silhouette does not exist in the SRIGEN archive. It may have been retired or allocated to another drop window.
+          The requested coordinate or silhouette does not exist in the MAVRIC archive. It may have been retired or updated to another collection.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 items-center">
@@ -39,7 +39,7 @@ export default function NotFound() {
             href="/"
             className="bg-[#111111] hover:bg-black text-white font-bold text-xs uppercase px-8 py-4 rounded-full tracking-wider transition-all"
           >
-            RETURN TO THE DROP
+            RETURN HOME
           </Link>
         </div>
       </main>

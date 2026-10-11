@@ -1,6 +1,6 @@
-# SRIGEN 001 // Forensic Reconstruction & Demo Storefront
+# MAVRIC // Technical Footwear & Architecture
 
-A 1:1 forensic reconstruction and professional demo storefront of the **SRIGEN 001** limited-edition sneaker drop, built with Next.js 16 (App Router), React 19, TypeScript strict mode, Tailwind CSS v4, GSAP 3, and Lenis smooth scrolling.
+A premier luxury atelier and technical footwear storefront for **MAVRIC**, engineered with Next.js 16 (App Router), React 19, TypeScript strict mode, Tailwind CSS v4, GSAP 3, and Lenis smooth scrolling. Directed & crafted by Anar Gadirli.
 
 ---
 

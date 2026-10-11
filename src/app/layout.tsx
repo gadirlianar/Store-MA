@@ -12,17 +12,17 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SRIGEN // 001 LIMITED EDITION DROP",
+  title: "MAVRIC // TECHNICAL FOOTWEAR & ARCHITECTURE",
   description:
-    "SRIGEN 001. Limited to 300 numbered pairs worldwide. Ultra-limited technical footwear engineered with SR-FOAM core dampening. US 4–13 · Unisex.",
+    "Official MAVRIC flagship store. Precision technical footwear engineered for performance and form. Designed by Anar Gadirli. Worldwide shipping.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
-  keywords: ["SRIGEN", "001", "Sneaker Drop", "Limited Edition", "SR-FOAM"],
+  keywords: ["MAVRIC", "Technical Footwear", "Luxury Sneakers", "Anar Gadirli", "Streetwear", "SR-FOAM"],
   openGraph: {
-    title: "SRIGEN // 001 LIMITED EDITION DROP",
-    description: "Limited to 300 numbered pairs worldwide. Ultra-limited technical footwear.",
+    title: "MAVRIC // OFFICIAL FLAGSHIP STORE",
+    description: "Precision technical footwear engineered for performance and form. Designed by Anar Gadirli.",
     type: "website",
   },
 };

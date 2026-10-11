@@ -59,7 +59,7 @@ export default function PrivacyPage() {
               2. CLIENT-SIDE LOCAL STORAGE & STATE
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              To support persistent shopping bag states across session reloads, items in your bag are stored strictly inside your browser’s local client storage (<code className="bg-black/5 px-2 py-0.5 rounded font-mono">localStorage.getItem(&apos;srigen_cart&apos;)</code>). This data is completely private to your local browser profile and can be cleared at any time via the bag controls or clearing your site cache.
+              To support persistent shopping bag states across session reloads, items in your bag are stored strictly inside your browser’s local client storage (<code className="bg-black/5 px-2 py-0.5 rounded font-mono">localStorage.getItem(&apos;mavric_cart&apos;)</code>). This data is completely private to your local browser profile and can be cleared at any time via the bag controls or clearing your site cache.
             </p>
           </section>
 
@@ -86,7 +86,7 @@ export default function PrivacyPage() {
               5. CONTACT & DATA CONTROLLER
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              For any questions regarding privacy or data handling, address requests to our privacy officer at <strong className="text-black font-mono">privacy@srigen.com</strong>.
+              For any questions regarding privacy or data handling, address requests to our privacy officer at <strong className="text-black font-mono">privacy@mavric.com</strong>.
             </p>
           </section>
         </div>

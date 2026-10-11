@@ -50,10 +50,7 @@ export default function CheckoutPage() {
         <div className="max-w-[1440px] mx-auto flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <span className="font-extrabold text-2xl tracking-tighter text-[#111111]">
-              SRIGEN
-            </span>
-            <span className="bg-[#D4FF00] text-black font-mono font-bold text-[11px] px-2 py-0.5 rounded-full">
-              001
+              MAVRIC
             </span>
           </Link>
           <span className="text-xs font-mono font-bold text-[#6B6A65] uppercase">
@@ -456,7 +453,7 @@ export default function CheckoutPage() {
 
       {/* Checkout Footer */}
       <footer className="mt-24 py-8 border-t border-black/10 text-center text-xs font-mono text-[#6B6A65]">
-        256-BIT ENCRYPTED CHECKOUT // SRIGEN INDUSTRIES
+        256-BIT ENCRYPTED CHECKOUT // MAVRIC OFFICIAL ATELIER
       </footer>
     </div>
   );

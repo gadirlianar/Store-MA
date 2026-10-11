@@ -99,7 +99,7 @@ export default function Hero({ onOpenNotify }: HeroProps) {
       <div className="w-full max-w-[1440px] mx-auto flex items-center justify-between text-[11px] font-mono font-medium tracking-widest uppercase z-30">
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-[#0B0905] inline-block" />
-          <span className="text-[#0B0905] font-bold">LIMITED — 300 PAIRS</span>
+          <span className="text-[#0B0905] font-bold">MAVRIC // FLAGSHIP SILHOUETTE</span>
         </div>
         <div className="flex items-center gap-2 text-[#0B0905]">
           <span className="w-2 h-2 rounded-full bg-[#D1F744] animate-pulse inline-block" />
@@ -109,7 +109,7 @@ export default function Hero({ onOpenNotify }: HeroProps) {
 
       {/* 2. Main Centerpiece: Giant Wordmark + Centered Tilted Box + Fluid Side Sneakers (Image 2) */}
       <div className="relative w-full max-w-[1440px] mx-auto flex flex-col items-center justify-center my-auto py-4">
-        {/* Massive Background Brand Display Typography "SRIGEN" */}
+        {/* Massive Background Brand Display Typography "MAVRIC" */}
         <div className="absolute -top-6 sm:-top-8 lg:-top-10 left-0 w-full flex justify-center pointer-events-none z-0">
           <h1
             className="text-[19vw] lg:text-[18vw] font-black tracking-[-0.04em] text-[#0B0905] leading-none select-none"
@@ -117,7 +117,7 @@ export default function Hero({ onOpenNotify }: HeroProps) {
               fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
             }}
           >
-            SRIGEN
+            MAVRIC
           </h1>
         </div>
 
@@ -137,7 +137,7 @@ export default function Hero({ onOpenNotify }: HeroProps) {
           >
             <Image
               src="/assets/reference/hero_shoe_left.png"
-              alt="SRIGEN 001 lateral profile left"
+              alt="MAVRIC lateral profile left"
               width={568}
               height={520}
               className="w-full h-auto drop-shadow-[0_26px_40px_rgba(0,0,0,0.15)]"
@@ -163,7 +163,7 @@ export default function Hero({ onOpenNotify }: HeroProps) {
           >
             <Image
               src="/assets/reference/hero_shoe_right.png"
-              alt="SRIGEN 001 lateral profile right"
+              alt="MAVRIC lateral profile right"
               width={600}
               height={520}
               className="w-full h-auto drop-shadow-[0_26px_40px_rgba(0,0,0,0.15)]"
@@ -197,7 +197,7 @@ export default function Hero({ onOpenNotify }: HeroProps) {
             <div className="w-full h-full relative">
               <Image
                 src="/assets/reference/box_interior_luxury.jpg"
-                alt="SRIGEN sneakers luxury unboxing spotlight reveal"
+                alt="MAVRIC sneakers luxury unboxing spotlight reveal"
                 fill
                 className="object-cover object-center"
                 unoptimized
@@ -233,12 +233,12 @@ export default function Hero({ onOpenNotify }: HeroProps) {
             {/* Center Monogram Typography */}
             <div className="text-center my-auto">
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-[#0B0905] uppercase leading-none">
-                SRIGEN
+                MAVRIC
               </h2>
-              {/* Hairlines Flanking "001 — FIRST DROP" */}
+              {/* Hairlines Flanking Flagship Collection */}
               <div className="flex items-center justify-center gap-3 mt-3 text-[10px] sm:text-xs font-mono font-semibold tracking-widest text-[#0B0905] uppercase">
                 <span className="w-8 sm:w-14 h-[1px] bg-[#0B0905]/40" />
-                <span>001 — FIRST DROP</span>
+                <span>FLAGSHIP COLLECTION</span>
                 <span className="w-8 sm:w-14 h-[1px] bg-[#0B0905]/40" />
               </div>
             </div>

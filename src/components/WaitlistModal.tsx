@@ -73,14 +73,14 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
           <div>
             <div className="flex items-center gap-2 text-xs font-semibold tracking-widest text-[#76746E] uppercase mb-2">
               <span className="w-2 h-2 rounded-full bg-[#DEF86F] inline-block" />
-              <span>DROP NOTIFICATION</span>
+              <span>MAVRIC VIP ACCESS</span>
             </div>
 
             <h3 className="text-3xl font-black tracking-tight text-[#14110D] uppercase">
               BE FIRST IN LINE
             </h3>
             <p className="text-sm font-medium text-[#76746E] mt-2 leading-relaxed">
-              Only 300 numbered pairs worldwide. Enter your email for drop access.
+              Receive priority allocation for new MAVRIC releases, private previews, and atelier developments.
             </p>
 
             <form onSubmit={handleSubmit} className="mt-8 flex flex-col gap-4">
@@ -101,7 +101,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
               </button>
 
               <p className="text-[11px] text-[#76746E] text-center mt-2 leading-tight">
-                By joining, you agree to drop notifications. No spam. One email on drop day.
+                By joining, you agree to MAVRIC notifications. No spam. Unsubscribe anytime.
               </p>
             </form>
           </div>

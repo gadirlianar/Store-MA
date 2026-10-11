@@ -31,7 +31,7 @@ export default function TermsPage() {
               TERMS & CONDITIONS
             </span>
             <span className="text-xs font-mono text-[#6B6A65]">
-              SRIGEN FOOTWEAR COVENANT
+              MAVRIC FOOTWEAR COVENANT
             </span>
           </div>
 
@@ -39,7 +39,7 @@ export default function TermsPage() {
             TERMS OF SERVICE
           </h1>
           <p className="text-base text-[#6B6A65] mt-2 leading-relaxed max-w-2xl font-sans">
-            Drop mechanics, allocation rules, and official purchase terms.
+            Atelier mechanics, allocation standards, and official purchase terms.
           </p>
         </div>
 
@@ -47,33 +47,33 @@ export default function TermsPage() {
         <div className="bg-white rounded-3xl p-8 sm:p-12 border border-black/5 shadow-sm max-w-4xl flex flex-col gap-10">
           <section className="flex flex-col gap-3">
             <h2 className="text-xl font-black uppercase tracking-tight">
-              1. OFFICIAL DROP PROTOCOL & ALLOCATIONS
+              1. OFFICIAL PURCHASING & ALLOCATIONS
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              All releases on SRIGEN are conducted according to strict allocation rules. Each silhouette is limited to a verified production batch. Orders are finalized upon successful verification of identity and delivery coordinates.
+              All releases on MAVRIC are conducted according to strict authentic atelier standards. Each silhouette is produced to high-craft specifications. Orders are finalized upon successful verification of identity and delivery coordinates.
             </p>
           </section>
 
           <section className="flex flex-col gap-3">
             <h2 className="text-xl font-black uppercase tracking-tight">
-              2. DROP RULES & ALLOCATION LIMITS
+              2. PURCHASE INTEGRITY & POLICIES
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              Under the SRIGEN drop protocol:
+              Under MAVRIC official store policies:
             </p>
             <ul className="list-disc list-inside text-xs sm:text-sm text-[#6B6A65] flex flex-col gap-2 pl-2">
-              <li>Purchases are strictly capped at 1 pair per silhouette per household.</li>
-              <li>Botting, headless script submissions, and automated address tampering result in automated cancellation.</li>
-              <li>Edition numbering (001 through 300) is assigned sequentially at order confirmation timestamp.</li>
+              <li>Purchases are intended for genuine private clients and enthusiasts.</li>
+              <li>Botting, fraudulent activity, and unauthorized scraping are strictly prohibited and result in order cancellation.</li>
+              <li>All footwear packages include authenticated serial cards and bespoke packaging.</li>
             </ul>
           </section>
 
           <section className="flex flex-col gap-3">
             <h2 className="text-xl font-black uppercase tracking-tight">
-              3. NO RESTOCK GUARANTEE
+              3. ATELIER QUALITY GUARANTEE
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              The company guarantees that no retired or sold-out 001 colorway will ever be re-manufactured or re-released. Colorways are retired permanently once the 300th pair is confirmed.
+              The company guarantees authentic craftsmanship, premium materials, and master finishing on every product bearing the MAVRIC brand mark.
             </p>
           </section>
 
@@ -82,7 +82,7 @@ export default function TermsPage() {
               4. INTELLECTUAL PROPERTY & DESIGN ARCHIVE
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              SRIGEN, SR-FOAM, and all associated graphic assets, typography lockups, and proprietary materials are protected trademarks and proprietary property of SRIGEN Industries.
+              MAVRIC, MAV-FOAM, and all associated graphic assets, typography lockups, and proprietary materials are protected trademarks and proprietary property of MAVRIC Atelier.
             </p>
           </section>
 

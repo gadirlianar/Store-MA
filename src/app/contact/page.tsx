@@ -74,7 +74,7 @@ export default function ContactPage() {
               CLIENT SERVICES
             </span>
             <span className="text-xs font-mono text-[#6B6A65]">
-              SRIGEN CONCIERGE DESK · LONDON HQ
+              MAVRIC CONCIERGE DESK · LONDON HQ
             </span>
           </div>
 
@@ -247,7 +247,7 @@ export default function ContactPage() {
                 LONDON ATELIER
               </h3>
               <p className="text-xs text-[#6B6A65] font-mono leading-relaxed">
-                SRIGEN FOOTWEAR LABS<br />
+                MAVRIC FOOTWEAR LABS<br />
                 12 Volt Lane, Shoreditch<br />
                 London, E1 6AN<br />
                 United Kingdom

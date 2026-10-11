@@ -44,7 +44,7 @@ export default function ShippingReturnsPage() {
             SHIPPING & RETURNS
           </h1>
           <p className="text-base text-[#6B6A65] mt-2 leading-relaxed max-w-2xl font-sans">
-            Every SRIGEN pair is individually packed in custom protective double-boxed packaging with tamper-evident serial tape.
+            Every MAVRIC pair is individually packed in custom protective double-boxed packaging with tamper-evident serial tape.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export default function ShippingReturnsPage() {
               <span className="text-3xl mb-3 block">⚡</span>
               <h3 className="font-black text-xl uppercase mb-2">SHIPS IN 24H</h3>
               <p className="text-xs text-[#6B6A65] leading-relaxed">
-                All confirmed drop orders are dispatched from our fulfillment center within 24 hours of drop closure.
+                All confirmed orders are dispatched from our fulfillment center within 24 hours of confirmation.
               </p>
             </div>
             <div className="mt-6 pt-4 border-t border-black/5 text-xs font-mono text-black font-bold">

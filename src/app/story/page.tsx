@@ -28,10 +28,10 @@ export default function StoryPage() {
         <div className="flex flex-col gap-4 max-w-4xl mb-16">
           <div className="flex items-center gap-3">
             <span className="bg-[#D4FF00] text-black font-mono font-bold text-xs px-3 py-1 rounded-full uppercase">
-              PHILOSOPHY // 001
+              PHILOSOPHY // MAVRIC
             </span>
             <span className="text-xs font-mono text-[#6B6A65]">
-              EST. 2026 · NUMIX LABS
+              EST. 2026 · MAVRIC LABS
             </span>
           </div>
 
@@ -39,7 +39,7 @@ export default function StoryPage() {
             ENGINEERED WITHOUT COMPROMISE.
           </h1>
           <p className="text-base sm:text-lg text-[#6B6A65] mt-4 leading-relaxed font-sans max-w-2xl">
-            SRIGEN was founded on a singular premise: modern performance footwear has surrendered craft to mass production. We design for the extremes of street movement and architectural form.
+            MAVRIC was founded on a singular premise: modern performance footwear has surrendered craft to mass production. We design for the extremes of street movement and architectural form.
           </p>
         </div>
 
@@ -48,18 +48,18 @@ export default function StoryPage() {
           <div className="bg-white rounded-3xl p-8 sm:p-12 border border-black/5 shadow-sm flex flex-col justify-between">
             <div>
               <span className="text-xs font-mono font-bold text-[#6B6A65] uppercase tracking-wider">
-                01 // THE 300 PLEDGE
+                01 // THE MAVRIC CODE
               </span>
               <h2 className="text-2xl sm:text-3xl font-black uppercase mt-3 mb-4">
-                NO RESTOCK. EVER.
+                PRECISION OVER VOLUME
               </h2>
               <p className="text-sm text-[#6B6A65] leading-relaxed">
-                Every release is produced in a strictly capped run of 300 pairs worldwide. When an edition sells out, tooling is archived and never reused for the same colorway. This preserves the authenticity, value, and identity of every numbered owner.
+                Every release is produced with rigorous Italian bespoke standards. We refuse mass assembly line mediocrity. Each pair is built to endure, delivering unmatched luxury aesthetics and technical longevity for our community.
               </p>
             </div>
             <div className="mt-8 pt-6 border-t border-black/5 flex items-center justify-between text-xs font-mono">
-              <span className="text-[#6B6A65]">EDITION ALLOCATION</span>
-              <strong className="text-black font-bold">300 / 300 WORLDWIDE</strong>
+              <span className="text-[#6B6A65]">ATELIER STANDARD</span>
+              <strong className="text-black font-bold">UNCOMPROMISED QUALITY</strong>
             </div>
           </div>
 
@@ -69,10 +69,10 @@ export default function StoryPage() {
                 02 // MATERIAL SCIENCES
               </span>
               <h2 className="text-2xl sm:text-3xl font-black uppercase mt-3 mb-4">
-                THE SR-FOAM CORE
+                THE MAV-FOAM CORE
               </h2>
               <p className="text-sm text-[#6B6A65] leading-relaxed">
-                Developed in collaboration with specialized elastomer chemists, SR-FOAM delivers 78% energy return while maintaining structural rebound over 800+ kilometers of pavement punishment. Light enough for tempo days, dense enough for urban brutalism.
+                Developed in collaboration with specialized elastomer chemists, MAV-FOAM delivers 78% energy return while maintaining structural rebound over 800+ kilometers of pavement punishment. Light enough for tempo days, dense enough for urban brutalism.
               </p>
             </div>
             <div className="mt-8 pt-6 border-t border-black/5 flex items-center justify-between text-xs font-mono">

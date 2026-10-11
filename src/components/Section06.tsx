@@ -59,12 +59,12 @@ export default function Section06() {
     {
       id: "edition",
       number: "04",
-      title: "ARCHIVAL SERIAL",
-      subtitle: "Laser-Etched Individual Production Stamp",
+      title: "MAVRIC MONOGRAM",
+      subtitle: "Laser-Etched Atelier Production Stamp",
       details: [
-        { label: "Run Size", value: "Strictly 300 Pairs Worldwide" },
+        { label: "Origin", value: "Handcrafted in Civitanova, Italy" },
         { label: "Authentication", value: "Individually Laser-Etched" },
-        { label: "Reissue Policy", value: "Archived Mold · Never Reissued" },
+        { label: "Standard", value: "MAVRIC Atelier Quality Certified" },
       ],
       x: 75,
       y: 50,
@@ -83,7 +83,7 @@ export default function Section06() {
         <div>
           <div className="text-xs font-mono text-[#76746E] uppercase tracking-widest flex items-center gap-2 mb-2">
             <span className="w-2 h-2 rounded-full bg-[#D1F744] inline-block shadow-sm" />
-            <span className="font-bold text-[#0B0905]">ANATOMICAL BLUEPRINT // 001</span>
+            <span className="font-bold text-[#0B0905]">ANATOMICAL BLUEPRINT // MAVRIC</span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-[#0B0905] uppercase leading-none">
             ENGINEERED LATERAL PROFILE
@@ -115,7 +115,7 @@ export default function Section06() {
           <div className="w-full h-full relative">
             <Image
               src="/assets/reference/anatomy_blueprint_minimal.jpg"
-              alt="SRIGEN 001 lateral profile blueprint"
+              alt="MAVRIC lateral profile blueprint"
               fill
               sizes="(max-width: 1024px) 100vw, 66vw"
               className="object-contain"
@@ -204,7 +204,7 @@ export default function Section06() {
               <span className="w-2 h-2 rounded-full bg-[#D1F744]" />
               <strong className="text-[#0B0905]">HANDCRAFTED</strong>
             </span>
-            <span>EDITION OF 300</span>
+            <span>MAVRIC ATELIER</span>
           </div>
         </div>
       </div>

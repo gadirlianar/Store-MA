@@ -15,24 +15,24 @@ interface FAQItem {
 
 const FAQ_DATA: FAQItem[] = [
   {
-    category: "THE DROP",
-    q: "HOW DOES THE LIMITED DROP SYSTEM WORK?",
-    a: "Every silhouette released under the SRIGEN drop protocol is produced in an immutable run of exactly 300 numbered pairs worldwide. Once registration opens, verified waitlist entries receive a priority access code. When stock reaches 0, the drop is permanently closed.",
+    category: "RELEASES & ORDERS",
+    q: "HOW DOES THE ORDER & ALLOCATION SYSTEM WORK?",
+    a: "Every silhouette released by MAVRIC is produced in focused atelier batches in Civitanova, Italy. Once registration or ordering opens, orders are fulfilled directly with insured priority courier dispatch.",
   },
   {
-    category: "THE DROP",
-    q: "WILL THE 001 OR AERO FLUX EVER BE RESTOCKED?",
-    a: "No restock. Ever. We operate under a strict anti-dilution covenant: once an edition is archived, the same colorway and specification will never be produced again.",
+    category: "RELEASES & ORDERS",
+    q: "DOES MAVRIC INTRODUCE SEASONAL RUNS OR NEW SILHOUETTES?",
+    a: "Yes. MAVRIC introduces signature seasonal capsules, architectural silhouettes, and core atelier staples. When a specific colorway batch concludes, future evolutions follow our official brand roadmap.",
   },
   {
     category: "SIZING & FIT",
-    q: "HOW DO SRIGEN SNEAKERS FIT COMPARED TO STANDARD ATHLETIC SHOES?",
+    q: "HOW DO MAVRIC SNEAKERS FIT COMPARED TO STANDARD ATHLETIC SHOES?",
     a: "All models fit true to standard US athletic sizing (D width). If you typically take a US 10 in technical running shoes, select US 10. For runners who prefer extra forefoot clearance over ultra-marathon distances, sizing up by half a size is recommended.",
   },
   {
     category: "SIZING & FIT",
     q: "DO YOU OFFER HALF SIZES OR WIDE OPTIONS?",
-    a: "The initial 300-pair drop run spans full US sizes 7 through 12. Half sizes are accommodated via the included dual-density ergonomic footbeds (2mm and 4mm EVA inserts included in every presentation box).",
+    a: "MAVRIC collections span full US sizes 7 through 13. Fine-tuned fit is accommodated via the included dual-density ergonomic footbeds (2mm and 4mm EVA inserts included in every presentation box).",
   },
   {
     category: "SHIPPING",
@@ -46,13 +46,13 @@ const FAQ_DATA: FAQItem[] = [
   },
   {
     category: "RETURNS",
-    q: "CAN I RETURN OR EXCHANGE A LIMITED DROP PAIR?",
+    q: "CAN I RETURN OR EXCHANGE A MAVRIC PAIR?",
     a: "Yes. We honor a 30-day return policy from the date of delivery. Footwear must remain in pristine, unworn condition with all original serialized tags, shoe trees, and presentation box intact.",
   },
   {
     category: "AUTHENTICITY",
-    q: "HOW ARE SRIGEN SILHOUETTES NUMBERED AND VERIFIED?",
-    a: "Each pair is stamped with an archival unit code and features an NFC authentication chip embedded in the left footbed that links directly to our production registry.",
+    q: "HOW ARE MAVRIC SILHOUETTES NUMBERED AND VERIFIED?",
+    a: "Each pair is stamped with an archival unit code and features an NFC authentication chip embedded in the left footbed that links directly to our official digital registry.",
   },
 ];
 
@@ -60,7 +60,7 @@ export default function FAQPage() {
   const [activeCategory, setActiveCategory] = useState<string>("ALL");
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  const categories = ["ALL", "THE DROP", "SIZING & FIT", "SHIPPING", "RETURNS", "AUTHENTICITY"];
+  const categories = ["ALL", "RELEASES & ORDERS", "SIZING & FIT", "SHIPPING", "RETURNS", "AUTHENTICITY"];
 
   const filteredFaqs =
     activeCategory === "ALL"
@@ -98,7 +98,7 @@ export default function FAQPage() {
             FREQUENT QUESTIONS
           </h1>
           <p className="text-base text-[#6B6A65] mt-2 leading-relaxed max-w-2xl font-sans">
-            Clear technical answers regarding drop allocation, SR-FOAM engineering, delivery timelines, and return covenants.
+            Clear technical answers regarding MAVRIC allocations, MAV-FOAM engineering, delivery timelines, and atelier covenants.
           </p>
         </div>
 

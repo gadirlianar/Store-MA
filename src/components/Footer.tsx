@@ -30,17 +30,14 @@ export default function Footer() {
           <div className="lg:col-span-2 flex flex-col gap-6">
             <Link href="/" className="flex items-center gap-2.5">
               <span className="font-extrabold text-2xl tracking-tighter text-[#14110D]">
-                SRIGEN
-              </span>
-              <span className="bg-[#DEF86F] text-[#14110D] font-bold text-[11px] px-2.5 py-0.5 rounded-full tracking-wider">
-                001
+                MAVRIC
               </span>
             </Link>
 
             {/* Streamlined Newsletter */}
             <form onSubmit={handleNewsletterSubmit} className="flex flex-col gap-2 max-w-sm">
               <label htmlFor="newsletter-input" className="text-[11px] font-mono uppercase tracking-wider font-bold text-[#6B6A65]">
-                DROP NOTIFICATIONS
+                MAVRIC ALLOCATION UPDATES
               </label>
               <div className="relative flex items-center">
                 <input
@@ -124,7 +121,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/#hero" className="hover:text-black transition-colors">
-                  The 001 Drop
+                  The Flagship
                 </Link>
               </li>
             </ul>
@@ -148,7 +145,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/faq" className="hover:text-black transition-colors">
-                  Drop FAQ
+                  Client FAQ
                 </Link>
               </li>
               <li>
@@ -187,7 +184,7 @@ export default function Footer() {
               {
                 name: "Instagram",
                 label: "INSTAGRAM",
-                href: "https://instagram.com/srigen",
+                href: "https://instagram.com/mavric",
                 icon: (
                   <svg className="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
@@ -199,7 +196,7 @@ export default function Footer() {
               {
                 name: "X",
                 label: "X",
-                href: "https://x.com/srigen",
+                href: "https://x.com/mavric",
                 icon: (
                   <svg className="w-3.5 h-3.5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
@@ -209,7 +206,7 @@ export default function Footer() {
               {
                 name: "TikTok",
                 label: "TIKTOK",
-                href: "https://tiktok.com/@srigen",
+                href: "https://tiktok.com/@mavric",
                 icon: (
                   <svg className="w-3.5 h-3.5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.85.12V9.32a6.34 6.34 0 0 0-.85-.06 6.34 6.34 0 1 0 6.34 6.34V8.76a8.27 8.27 0 0 0 3.77.92V6.69z" />
@@ -219,7 +216,7 @@ export default function Footer() {
               {
                 name: "YouTube",
                 label: "YOUTUBE",
-                href: "https://youtube.com/@srigen",
+                href: "https://youtube.com/@mavric",
                 icon: (
                   <svg className="w-3.5 h-3.5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
@@ -265,7 +262,7 @@ export default function Footer() {
             </span>
           </div>
           <p className="text-[10px] font-mono tracking-[0.3em] text-[#76746E]/70 uppercase">
-            SRIGEN ARCHIVES · PARIS / NEW YORK / TOKYO · ALL RIGHTS RESERVED © 2026
+            MAVRIC ARCHIVES · PARIS / NEW YORK / TOKYO · ALL RIGHTS RESERVED © 2026
           </p>
         </div>
       </div>

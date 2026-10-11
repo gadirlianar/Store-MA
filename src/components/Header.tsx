@@ -39,13 +39,10 @@ export default function Header({
       }`}
     >
       <div className="max-w-[1920px] mx-auto px-6 sm:px-10 lg:px-16 flex items-center justify-between">
-        {/* Brand / Logo with 001 Badge */}
-        <Link href="/" className="flex items-center gap-2.5 group cursor-pointer">
-          <span className="font-black text-2xl tracking-tighter text-[#0B0905]">
-            SRIGEN
-          </span>
-          <span className="bg-[#D1F744] text-[#0B0905] text-[10px] font-mono font-black px-2 py-0.5 rounded-full">
-            001
+        {/* Brand / Logo */}
+        <Link href="/" className="flex items-center gap-2 group cursor-pointer">
+          <span className="font-black text-2xl tracking-tight text-[#0B0905]">
+            MAVRIC
           </span>
         </Link>
 
@@ -53,7 +50,7 @@ export default function Header({
         <nav className="hidden md:flex items-center gap-8 lg:gap-10">
           {isLanding ? (
             [
-              { href: "/#hero", label: "THE DROP" },
+              { href: "/#hero", label: "COLLECTION" },
               { href: "/shop", label: "ALL SHOES" },
               { href: "/#section02", label: "ANATOMY" },
               { href: "/lookbook", label: "LOOKBOOK" },
@@ -69,7 +66,7 @@ export default function Header({
             ))
           ) : (
             [
-              { href: "/#hero", label: "THE DROP", active: false },
+              { href: "/#hero", label: "COLLECTION", active: false },
               { href: "/shop", label: "ALL SHOES", active: pathname === "/shop" || pathname.startsWith("/shop/") },
               { href: "/lookbook", label: "LOOKBOOK", active: pathname === "/lookbook" },
               { href: "/story", label: "STORY", active: pathname === "/story" },

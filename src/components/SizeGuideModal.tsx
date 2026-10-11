@@ -63,7 +63,7 @@ export default function SizeGuideModal({ isOpen, onClose }: SizeGuideModalProps)
           SIZE GUIDE — UNISEX
         </h3>
         <p className="text-xs text-[#6B6A65] mt-1">
-          SRIGEN shoes are engineered with true-to-size standard performance width (D).
+          MAVRIC shoes are engineered with true-to-size standard performance width (D).
         </p>
 
         {/* Conversion Table */}

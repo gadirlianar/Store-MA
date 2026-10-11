@@ -60,9 +60,13 @@ async function main() {
   await footer.screenshot({ path: "public/verify_footer_clean.png" });
   console.log("Captured Footer: public/verify_footer_clean.png");
 
-  // Verify footer signature
+  // Verify footer signature and brand
   const anarCount = await footer.getByText("ANAR GADIRLI").count();
+  const mavricCount = await page.getByText("MAVRIC").count();
+  const srigenCount = await page.getByText("SRIGEN").count();
   console.log("ANAR GADIRLI count in footer:", anarCount);
+  console.log("MAVRIC occurrences across page:", mavricCount);
+  console.log("SRIGEN occurrences across page (should be 0):", srigenCount);
   console.log("Console errors across landing page:", consoleErrors.length);
 
   await browser.close();
