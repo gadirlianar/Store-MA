@@ -250,18 +250,15 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Creator Signature / Credit — Prominent, Prestigious & High Fashion */}
-        <div className="pt-10 border-t border-[#14110D]/10 flex flex-col items-center justify-center gap-3 text-center">
-          <div className="inline-flex items-center gap-3.5 bg-white/80 border border-[#14110D]/10 px-8 py-3 rounded-full shadow-sm hover:scale-105 transition-transform duration-200">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#DEF86F] animate-pulse shadow-sm" />
-            <span className="text-[11px] font-mono tracking-[0.25em] uppercase text-[#76746E]">
-              DIRECTED & CRAFTED BY
-            </span>
-            <span className="text-sm font-black tracking-[0.2em] text-[#14110D] uppercase">
-              ANAR GADIRLI
+        {/* Creator Signature / Credit — Refined Editorial Minimalism */}
+        <div className="pt-8 border-t border-[#14110D]/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
+          <div className="flex items-center gap-2.5 text-[#76746E]">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#D1F744] shadow-sm" />
+            <span className="tracking-[0.2em] uppercase text-[11px]">
+              DIRECTED & CRAFTED BY <strong className="text-[#14110D] font-black tracking-[0.18em] ml-1">ANAR GADIRLI</strong>
             </span>
           </div>
-          <p className="text-[10px] font-mono tracking-[0.3em] text-[#76746E]/70 uppercase">
+          <p className="text-[10px] tracking-[0.22em] text-[#76746E]/80 uppercase">
             MAVRIC ARCHIVES · PARIS / NEW YORK / TOKYO · ALL RIGHTS RESERVED © 2026
           </p>
         </div>

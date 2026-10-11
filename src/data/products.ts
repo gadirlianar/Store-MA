@@ -60,7 +60,7 @@ export const PRODUCTS: Product[] = [
     specs: [
       { label: "Weight", value: "289 g (US 9)" },
       { label: "Heel-to-Toe Drop", value: "8 mm" },
-      { label: "Midsole", value: "SR-FOAM™ Dual-Density EVA (34% Rebound)" },
+      { label: "Midsole", value: "MAV-FOAM™ Dual-Density EVA (34% Rebound)" },
       { label: "Upper Material", value: "Engineered Aerodynamic Mesh & Suede" },
       { label: "Outsole", value: "Zonal High-Traction Carbon Compound" },
       { label: "Fit Note", value: "True to size. For wide feet, take half size up." },
@@ -114,7 +114,7 @@ export const PRODUCTS: Product[] = [
     specs: [
       { label: "Weight", value: "295 g (US 9)" },
       { label: "Heel-to-Toe Drop", value: "8 mm" },
-      { label: "Midsole", value: "SR-FOAM™ Blackout Edition with Lime Gel Pod" },
+      { label: "Midsole", value: "MAV-FOAM™ Blackout Edition with Lime Gel Pod" },
       { label: "Upper Material", value: "Matte Technical Ripstop & Suede Overlays" },
       { label: "Outsole", value: "Stealth Grip High-Abrasion Rubber" },
       { label: "Fit Note", value: "True to size." },

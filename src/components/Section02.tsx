@@ -36,8 +36,8 @@ export default function Section02() {
 
   const leftCards: SpecCardData[] = [
     {
-      id: "sr-foam",
-      title: "SR-FOAM™",
+      id: "mav-foam",
+      title: "MAV-FOAM™",
       subtitle: "Dual-density · 34% rebound",
       tileChip: "MIDSOLE CORE",
       photoSrc: "/assets/specs/spec_sr_foam.jpg",
@@ -107,11 +107,11 @@ export default function Section02() {
           isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
         }`}
       >
-        {/* Headline: ONE SHOE. ONE DROP. NO RESTOCK. (with square-cornered lime highlight) */}
+        {/* Headline: ENGINEERED SILHOUETTE. BESPOKE FINISH. */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-[#0B0905] leading-tight uppercase">
-          ONE SHOE. ONE DROP.{" "}
+          ENGINEERED SILHOUETTE.{" "}
           <span className="bg-[#D1F744] text-[#0B0905] px-3 py-0.5 rounded-none inline-block font-black shadow-sm">
-            NO RESTOCK.
+            BESPOKE FINISH.
           </span>
         </h2>
       </div>
@@ -159,17 +159,17 @@ export default function Section02() {
                       </h4>
                     </div>
 
-                    {/* Bottom: Grey Subtitle & HOVER ? */}
+                    {/* Bottom: Subtitle */}
                     <div className="flex justify-between items-end">
                       <p
-                        className={`text-xs font-medium max-w-[170px] leading-snug ${
+                        className={`text-xs font-medium max-w-[200px] leading-snug ${
                           card.isAccent ? "text-[#0B0905]/85" : "text-[#76746E]"
                         }`}
                       >
                         {card.subtitle}
                       </p>
-                      <span className="text-[10px] font-mono font-bold tracking-wider opacity-60">
-                        HOVER ?
+                      <span className="text-xs font-mono font-bold text-[#0B0905]/40 group-hover:text-[#0B0905] transition-colors">
+                        ↗
                       </span>
                     </div>
                   </div>
@@ -249,17 +249,17 @@ export default function Section02() {
                       </h4>
                     </div>
 
-                    {/* Bottom: Grey Subtitle & HOVER ? */}
+                    {/* Bottom: Subtitle */}
                     <div className="flex justify-between items-end">
                       <p
-                        className={`text-xs font-medium max-w-[170px] leading-snug ${
+                        className={`text-xs font-medium max-w-[200px] leading-snug ${
                           card.isAccent ? "text-[#0B0905]/85" : "text-[#76746E]"
                         }`}
                       >
                         {card.subtitle}
                       </p>
-                      <span className="text-[10px] font-mono font-bold tracking-wider opacity-60">
-                        HOVER ?
+                      <span className="text-xs font-mono font-bold text-[#0B0905]/40 group-hover:text-[#0B0905] transition-colors">
+                        ↗
                       </span>
                     </div>
                   </div>

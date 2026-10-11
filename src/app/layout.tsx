@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  keywords: ["MAVRIC", "Technical Footwear", "Luxury Sneakers", "Anar Gadirli", "Streetwear", "SR-FOAM"],
+  keywords: ["MAVRIC", "Technical Footwear", "Luxury Sneakers", "Anar Gadirli", "Streetwear", "MAV-FOAM"],
   openGraph: {
     title: "MAVRIC // OFFICIAL FLAGSHIP STORE",
     description: "Precision technical footwear engineered for performance and form. Designed by Anar Gadirli.",

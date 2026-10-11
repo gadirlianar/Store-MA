@@ -25,6 +25,12 @@ function ShopContent() {
   const [priceFilter, setPriceFilter] = useState<string>(initialPrice);
   const [sortOption, setSortOption] = useState<string>(initialSort);
 
+  // Sync state when URL searchParams change (e.g. clicking footer collection links)
+  useEffect(() => {
+    const col = searchParams.get("collection") || "All";
+    setCollectionFilter(col);
+  }, [searchParams]);
+
   // Sync state to URL params cleanly
   useEffect(() => {
     const params = new URLSearchParams();

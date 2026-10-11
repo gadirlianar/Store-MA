@@ -46,42 +46,47 @@ export default function Header({
           </span>
         </Link>
 
-        {/* Navigation Links */}
-        <nav className="hidden md:flex items-center gap-8 lg:gap-10">
+        {/* Navigation Links with Minimalist Luxury Hover Effect */}
+        <nav className="hidden md:flex items-center gap-7 lg:gap-9">
           {isLanding ? (
             [
               { href: "/#hero", label: "COLLECTION" },
               { href: "/shop", label: "ALL SHOES" },
-              { href: "/#section02", label: "ANATOMY" },
+              { href: "/#anatomy", label: "ANATOMY" },
               { href: "/lookbook", label: "LOOKBOOK" },
               { href: "/story", label: "STORY" },
             ].map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
-                className="relative py-1 text-xs font-bold tracking-wider text-[#0B0905] hover:opacity-100 uppercase transition-opacity opacity-85"
+                className="group relative py-1.5 px-0.5 text-xs font-bold tracking-wider text-[#0B0905]/80 hover:text-[#0B0905] uppercase transition-colors"
               >
-                {item.label}
+                <span className="relative z-10 flex items-center gap-1.5">
+                  <span className="w-1 h-1 rounded-full bg-[#D1F744] opacity-0 -translate-y-0.5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200" />
+                  <span>{item.label}</span>
+                </span>
+                {/* Subtle expanding volt underline */}
+                <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#D1F744] transition-all duration-300 ease-out group-hover:w-full" />
               </Link>
             ))
           ) : (
             [
               { href: "/#hero", label: "COLLECTION", active: false },
               { href: "/shop", label: "ALL SHOES", active: pathname === "/shop" || pathname.startsWith("/shop/") },
+              { href: "/#anatomy", label: "ANATOMY", active: false },
               { href: "/lookbook", label: "LOOKBOOK", active: pathname === "/lookbook" },
               { href: "/story", label: "STORY", active: pathname === "/story" },
             ].map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="relative py-1 text-xs font-bold tracking-wider text-[#0B0905] transition-opacity hover:opacity-100 uppercase"
+                className="group relative py-1.5 px-0.5 text-xs font-bold tracking-wider text-[#0B0905]/80 hover:text-[#0B0905] uppercase transition-colors"
               >
-                <span className={item.active ? "opacity-100 font-black" : "opacity-75"}>
-                  {item.label}
+                <span className={`relative z-10 flex items-center gap-1.5 ${item.active ? "text-[#0B0905] font-black" : ""}`}>
+                  <span className={`w-1 h-1 rounded-full bg-[#D1F744] transition-all duration-200 ${item.active ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`} />
+                  <span>{item.label}</span>
                 </span>
-                {item.active && (
-                  <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#D1F744]" />
-                )}
+                <span className={`absolute bottom-0 left-0 h-[2px] bg-[#D1F744] transition-all duration-300 ease-out ${item.active ? "w-full" : "w-0 group-hover:w-full"}`} />
               </Link>
             ))
           )}
