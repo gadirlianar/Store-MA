@@ -198,7 +198,7 @@ export default function Section02() {
         <div className="lg:col-span-6 relative flex items-center justify-center py-6 z-10">
           <div className="relative w-full max-w-[560px] aspect-square flex items-center justify-center rounded-2xl overflow-hidden shadow-[0_20px_45px_rgba(0,0,0,0.12)] bg-[#F1ECE5]">
             <Image
-              src="/assets/reference/srigen_center_34.jpg"
+              src="/assets/reference/mavric_center_34.jpg"
               alt="MAVRIC uncropped three-quarter luxury volt sneaker"
               fill
               sizes="(max-width: 1024px) 100vw, 560px"
