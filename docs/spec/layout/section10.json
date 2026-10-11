@@ -1,0 +1,72 @@
+{
+  "sectionId": "section10",
+  "viewport": {
+    "width": 1920,
+    "height": 1150
+  },
+  "elements": {
+    "container": {
+      "x": 0,
+      "y": 4230,
+      "w": 1920,
+      "h": 1150,
+      "position": "relative"
+    },
+    "eyebrow": {
+      "x": 70,
+      "y": 80,
+      "text": "\u25cf 10 \u2014 THE DETAILS",
+      "fontSize": 12,
+      "letterSpacing": "0.12em"
+    },
+    "headline": {
+      "x": 70,
+      "y": 120,
+      "text": "EVERY PART, CONSIDERED.",
+      "fontSize": 56,
+      "fontWeight": 800
+    },
+    "cards": [
+      {
+        "id": "card1_rear",
+        "x": 220,
+        "y": 240,
+        "w": 474,
+        "h": 404,
+        "bg": "#CBE464",
+        "src": "/assets/reference/details_card_1.png"
+      },
+      {
+        "id": "card2_cut_once",
+        "x": 1120,
+        "y": 220,
+        "w": 540,
+        "h": 360,
+        "bg": "#121212",
+        "color": "#FFFFFF",
+        "text": "CUT ONCE."
+      },
+      {
+        "id": "card3_edition",
+        "x": 320,
+        "y": 680,
+        "w": 380,
+        "h": 330,
+        "bg": "#DEF86F",
+        "color": "#14110D",
+        "text": "EDITION 001\u2013300"
+      },
+      {
+        "id": "card4_front",
+        "x": 1180,
+        "y": 620,
+        "w": 506,
+        "h": 427,
+        "bg": "#CBE464",
+        "src": "/assets/reference/details_card_2.png"
+      }
+    ]
+  },
+  "confidence": "MEASURED",
+  "source": "Screenshot 3 (Screenshot 2026-10-11 at 10.30.19 AM.png)"
+}

@@ -1,0 +1,102 @@
+{
+  "sectionId": "section02",
+  "viewport": {
+    "width": 1920,
+    "height": 1100
+  },
+  "elements": {
+    "container": {
+      "x": 0,
+      "y": 1000,
+      "w": 1920,
+      "h": 1100,
+      "position": "relative"
+    },
+    "eyebrow": {
+      "x": 70,
+      "y": 80,
+      "text": "\u25cf 02 \u2014 THE 001",
+      "fontSize": 12,
+      "letterSpacing": "0.12em"
+    },
+    "headline": {
+      "x": 70,
+      "y": 120,
+      "text": "ONE SHOE. ONE DROP. NO RESTOCK.",
+      "fontSize": 56,
+      "fontWeight": 800
+    },
+    "pillHighlight": {
+      "text": "NO RESTOCK.",
+      "bg": "#DEF86F",
+      "color": "#14110D"
+    },
+    "centerShoe": {
+      "x": 660,
+      "y": 240,
+      "w": 600,
+      "h": 650,
+      "src": "/assets/reference/section2_shoe.png"
+    },
+    "leftCards": [
+      {
+        "title": "SR-FOAM\u2122",
+        "body": "Dual-density \u00b7 34% rebound",
+        "x": 180,
+        "y": 280,
+        "w": 280,
+        "h": 130,
+        "bg": "#FFFFFF"
+      },
+      {
+        "title": "FULL-GRAIN",
+        "body": "Suede over abrasion knit",
+        "x": 180,
+        "y": 440,
+        "w": 280,
+        "h": 130,
+        "bg": "#FFFFFF"
+      },
+      {
+        "title": "300 PAIRS",
+        "body": "Numbered. Then never again.",
+        "x": 180,
+        "y": 600,
+        "w": 280,
+        "h": 130,
+        "bg": "#DEF86F"
+      }
+    ],
+    "rightCards": [
+      {
+        "title": "312 G",
+        "body": "Featherweight at a US 9",
+        "x": 1460,
+        "y": 280,
+        "w": 280,
+        "h": 130,
+        "bg": "#FFFFFF"
+      },
+      {
+        "title": "8 MM DROP",
+        "body": "Tuned for all-day wear",
+        "x": 1460,
+        "y": 440,
+        "w": 280,
+        "h": 130,
+        "bg": "#FFFFFF"
+      },
+      {
+        "title": "WAXED LACES",
+        "body": "Volt dip finish",
+        "x": 1460,
+        "y": 600,
+        "w": 280,
+        "h": 130,
+        "bg": "#FFFFFF"
+      }
+    ]
+  },
+  "confidence": "MEASURED",
+  "source": "Video frames S02, S03, S07"
+}

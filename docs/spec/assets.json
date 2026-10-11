@@ -1,0 +1,191 @@
+[
+  {
+    "file": "/assets/reference/lookbook_photo.png",
+    "source": "Screenshot 2026-10-11 at 10.30.10 AM.png",
+    "cropBox": [
+      0,
+      70,
+      2026,
+      1314
+    ],
+    "sourceSize": [
+      2026,
+      1314
+    ],
+    "displaySize": [
+      1920,
+      1080
+    ],
+    "scaleFactor": 1.0,
+    "sharpness": 44.75140223343958,
+    "status": "EXACT"
+  },
+  {
+    "file": "/assets/reference/anatomy_card.png",
+    "source": "Screenshot 2026-10-11 at 10.29.56 AM.png",
+    "cropBox": [
+      687,
+      537,
+      990,
+      718
+    ],
+    "sourceSize": [
+      990,
+      718
+    ],
+    "displaySize": [
+      990,
+      718
+    ],
+    "scaleFactor": 1.0,
+    "sharpness": 56.90904523357074,
+    "status": "EXACT"
+  },
+  {
+    "file": "/assets/reference/details_card_1.png",
+    "source": "Screenshot 2026-10-11 at 10.30.19 AM.png",
+    "cropBox": [
+      278,
+      95,
+      474,
+      404
+    ],
+    "sourceSize": [
+      474,
+      404
+    ],
+    "displaySize": [
+      474,
+      404
+    ],
+    "scaleFactor": 1.0,
+    "sharpness": 77.35234204659868,
+    "status": "EXACT"
+  },
+  {
+    "file": "/assets/reference/details_card_2.png",
+    "source": "Screenshot 2026-10-11 at 10.30.19 AM.png",
+    "cropBox": [
+      1258,
+      518,
+      506,
+      427
+    ],
+    "sourceSize": [
+      506,
+      427
+    ],
+    "displaySize": [
+      506,
+      427
+    ],
+    "scaleFactor": 1.0,
+    "sharpness": 130.34959305906358,
+    "status": "EXACT"
+  },
+  {
+    "file": "/assets/reference/details_card_3.png",
+    "source": "Screenshot 2026-10-11 at 10.30.19 AM.png",
+    "cropBox": [
+      405,
+      673,
+      379,
+      330
+    ],
+    "sourceSize": [
+      379,
+      330
+    ],
+    "displaySize": [
+      379,
+      330
+    ],
+    "scaleFactor": 1.0,
+    "sharpness": 218.94108636839874,
+    "status": "EXACT"
+  },
+  {
+    "file": "/assets/reference/hero_shoe_left.png",
+    "source": "Screenshot 2026-10-11 at 10.30.27 AM.png",
+    "cropBox": [
+      0,
+      600,
+      590,
+      350
+    ],
+    "sourceSize": [
+      590,
+      350
+    ],
+    "displaySize": [
+      590,
+      350
+    ],
+    "scaleFactor": 1.0,
+    "sharpness": 89.15365308488647,
+    "status": "EXACT"
+  },
+  {
+    "file": "/assets/reference/hero_shoe_right.png",
+    "source": "Screenshot 2026-10-11 at 10.30.27 AM.png",
+    "cropBox": [
+      1420,
+      600,
+      664,
+      350
+    ],
+    "sourceSize": [
+      664,
+      350
+    ],
+    "displaySize": [
+      664,
+      350
+    ],
+    "scaleFactor": 1.0,
+    "sharpness": 146.43408129078892,
+    "status": "EXACT"
+  },
+  {
+    "file": "/assets/reference/hero_card_full.png",
+    "source": "Screenshot 2026-10-11 at 10.30.27 AM.png",
+    "cropBox": [
+      560,
+      550,
+      960,
+      600
+    ],
+    "sourceSize": [
+      960,
+      600
+    ],
+    "displaySize": [
+      960,
+      600
+    ],
+    "scaleFactor": 1.0,
+    "sharpness": 67.62653785915495,
+    "status": "EXACT"
+  },
+  {
+    "file": "/assets/reference/section2_shoe.png",
+    "source": "Video Frame 300 (05.31s)",
+    "cropBox": [
+      750,
+      350,
+      600,
+      700
+    ],
+    "sourceSize": [
+      600,
+      700
+    ],
+    "displaySize": [
+      600,
+      700
+    ],
+    "scaleFactor": 1.0,
+    "sharpness": 45.646597563486395,
+    "status": "EXACT"
+  }
+]

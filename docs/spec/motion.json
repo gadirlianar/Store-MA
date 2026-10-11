@@ -1,0 +1,41 @@
+{
+  "openingSequence": {
+    "trigger": "page_load",
+    "duration": 2.2,
+    "stages": [
+      { "name": "eyelets_in", "duration": 0.4, "ease": "power2.out" },
+      { "name": "lacing_thread", "duration": 1.2, "ease": "power2.inOut" },
+      { "name": "logo_morph", "duration": 0.5, "ease": "power3.out" },
+      { "name": "curtain_reveal", "duration": 0.6, "ease": "power4.inOut" }
+    ]
+  },
+  "heroPointerPhysics": {
+    "trigger": "pointermove",
+    "cardTiltMaxX": 12,
+    "cardTiltMaxY": 15,
+    "cardTiltPerspective": 1200,
+    "cardTiltDamping": 0.08,
+    "lensDiameter": 260,
+    "lensGlowSpread": 40,
+    "lensDamping": 0.12,
+    "shoesParallaxMax": 20
+  },
+  "idleMotion": {
+    "shoesFloatPeriod": 3.6,
+    "shoesFloatAmplitude": 14,
+    "ease": "sine.inOut"
+  },
+  "scrollTransitions": {
+    "headerThreshold": 50,
+    "headerBlur": "12px",
+    "headerTransitionDuration": 0.3,
+    "activeLinkTransitionDuration": 0.25
+  },
+  "cardsHover": {
+    "scale": 1.02,
+    "duration": 0.25,
+    "ease": "power2.out",
+    "thumbnailPopDuration": 0.35,
+    "thumbnailPopEase": "back.out(1.5)"
+  }
+}

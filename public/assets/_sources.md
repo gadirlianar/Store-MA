@@ -1,0 +1,13 @@
+# Khoralis Asset Manifest & Generation Sources
+
+All raster assets for the KHORALIS launch experience were generated procedurally via the AI image synthesis tool embedded in the studio environment, using a consistent, art-directed darkroom / cleanroom industrial aesthetic. No external, licensed, or stock photography is used.
+
+| Asset File | Resolution & Ratio | Prompt | Usage |
+|---|---|---|---|
+| `/assets/foundry-milling.jpg` | 1920x1080 (16:9) | `Close-up macro editorial photography of high-precision 5-axis CNC machining of a solid tellurium copper and tungsten acoustic billet, micro-milling cutter cutting fine metal ribbons, raking industrial inspection spotlight, dark moody workshop atmosphere, deep basalt background, warm copper specular gleam, fine engineering, photorealistic 8k, cinematic depth of field, no text, no watermark` | Section 6: The Foundry Journal (Frame 01: Subtractive Excavation) |
+| `/assets/foundry-quench.jpg` | 1440x1080 (4:3) | `Macro editorial photograph of cryogenic quench cooling bath for metallurgical stabilization of high-mass tellurium bronze acoustic core, dense cold white vapor mist rolling off the dark metal, deep atmospheric shadows, warm copper highlights, dark industrial laboratory setting, cinematic lighting, 8k detail, no text, no watermark` | Section 6: The Foundry Journal (Frame 02: Cryogenic Stabilization) |
+| `/assets/foundry-polishing.jpg` | 1440x1080 (4:3) | `Macro high-end editorial photograph of craftsman hand-lapping and optical diamond paste polishing of a thick cylindrical fused silica glass lens and copper ring, circular reflections of laboratory cleanroom lighting, dark environment, extreme surface polish, optical precision, cinematic depth of field, 8k, no text, no watermark` | Section 6: The Foundry Journal (Frame 03: Optical Surface Lapping) |
+| `/assets/listening-chamber.jpg` | 1920x1080 (16:9) | `Architectural photograph of a monumental acoustic listening chamber, dark basalt concrete walls with custom geometric acoustic diffusers, the sculptural copper and fused crystal cylindrical instrument resting on a heavy monolithic raw stone plinth, solitary beam of raking warm spotlight, minimalist luxury interior, Architectural Digest style, cinematic 8k, no text, no watermark` | Section 7: Spatial Chamber & OpenGraph Social Card |
+| `/favicon.svg` | Vector (Square) | Hand-crafted geometric SVG monogram with chamfered copper polygon and laser datum line | Browser favicon and bookmark icon |
+
+All images include explicit width/height dimensions and descriptive, contextual accessibility alt text in implementation.

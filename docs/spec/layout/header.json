@@ -1,0 +1,81 @@
+{
+  "sectionId": "header",
+  "viewport": {
+    "width": 1920,
+    "height": 80
+  },
+  "elements": {
+    "container": {
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 80,
+      "fixed": true,
+      "zIndex": 50
+    },
+    "logoLockup": {
+      "x": 70,
+      "y": 28,
+      "w": 170,
+      "h": 24,
+      "display": "flex",
+      "gap": 10
+    },
+    "logoText": {
+      "text": "SRIGEN",
+      "fontSize": 24,
+      "fontWeight": 700,
+      "letterSpacing": "-0.02em"
+    },
+    "logoBadge": {
+      "text": "001",
+      "bg": "#DEF86F",
+      "color": "#14110D",
+      "px": 8,
+      "py": 2,
+      "borderRadius": 9,
+      "fontSize": 11,
+      "fontWeight": 700
+    },
+    "nav": {
+      "x": 780,
+      "y": 32,
+      "w": 360,
+      "h": 16,
+      "display": "flex",
+      "gap": 32
+    },
+    "navItems": [
+      {
+        "label": "THE DROP",
+        "href": "#drop"
+      },
+      {
+        "label": "ANATOMY",
+        "href": "#anatomy"
+      },
+      {
+        "label": "LOOKBOOK",
+        "href": "#lookbook"
+      },
+      {
+        "label": "STORY",
+        "href": "#details"
+      }
+    ],
+    "ctaButton": {
+      "x": 1682,
+      "y": 14,
+      "w": 168,
+      "h": 52,
+      "borderRadius": 26,
+      "bg": "#DEF86F",
+      "color": "#14110D",
+      "text": "NOTIFY ME",
+      "fontWeight": 700,
+      "fontSize": 13
+    }
+  },
+  "confidence": "MEASURED",
+  "source": "Screenshot 4 & Video frames"
+}

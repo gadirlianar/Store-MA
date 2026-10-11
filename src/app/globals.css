@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --color-bg-base: #F4F3ED;
+  --color-volt-accent: #D4FF00;
+  --color-volt-card: #CBE464;
+  --color-surface-box: #E3E1D8;
+  --color-dark: #0B0B0B;
+  --color-ink-primary: #111111;
+  --color-ink-muted: #6B6A65;
+  --color-surface-white: #FFFFFF;
+}
+
+:root {
+  --bg-base: #F4F3ED;
+  --volt-accent: #D4FF00;
+  --volt-card: #CBE464;
+  --surface-box: #E3E1D8;
+  --dark: #0B0B0B;
+  --ink-primary: #111111;
+  --ink-muted: #6B6A65;
+  --surface-white: #FFFFFF;
+  --header-blur-bg: rgba(244, 243, 237, 0.9);
+}
+
+html {
+  background-color: var(--bg-base);
+  color: var(--ink-primary);
+  font-family: var(--font-sans);
+  scroll-behavior: auto !important;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--ink-primary);
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide default cursor on desktop when custom cursor is active */
+@media (pointer: fine) {
+  body {
+    cursor: default;
+  }
+}
+
+::selection {
+  background-color: var(--volt-accent);
+  color: var(--ink-primary);
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(17, 17, 17, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-primary);
+}
+
+/* Perspective & 3D Utilities */
+.perspective-1200 {
+  perspective: 1200px;
+}
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+/* Volt Glow Shadow Utility */
+.shadow-volt-glow {
+  box-shadow: 0 8px 24px rgba(212, 255, 0, 0.4);
+}

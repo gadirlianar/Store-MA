@@ -1,0 +1,46 @@
+{
+  "sectionId": "lookbook",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": {
+    "container": {
+      "x": 0,
+      "y": 3150,
+      "w": 1920,
+      "h": 1080,
+      "position": "relative",
+      "overflow": "hidden"
+    },
+    "fullBleedImage": {
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "src": "/assets/reference/lookbook_photo.png"
+    },
+    "captionPill": {
+      "x": 80,
+      "y": 940,
+      "borderRadius": 24,
+      "bg": "#DEF86F",
+      "color": "#14110D",
+      "px": 20,
+      "py": 10,
+      "text": "GOLDEN HOUR, GOLD PAIR",
+      "fontSize": 12,
+      "fontWeight": 700
+    },
+    "captionSubtitle": {
+      "x": 80,
+      "y": 990,
+      "text": "001 IN THE WILD \u00b7 FRAME 02",
+      "fontSize": 12,
+      "color": "#FFFFFF",
+      "letterSpacing": "0.1em"
+    }
+  },
+  "confidence": "MEASURED",
+  "source": "Screenshot 2 (Screenshot 2026-10-11 at 10.30.10 AM.png)"
+}

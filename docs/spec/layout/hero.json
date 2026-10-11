@@ -1,0 +1,109 @@
+{
+  "sectionId": "hero",
+  "viewport": {
+    "width": 1920,
+    "height": 1000
+  },
+  "elements": {
+    "container": {
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1000,
+      "position": "relative"
+    },
+    "eyebrowLeft": {
+      "x": 70,
+      "y": 120,
+      "text": "\u25cf LIMITED \u2014 300 PAIRS",
+      "fontSize": 12,
+      "fontWeight": 600,
+      "letterSpacing": "0.12em"
+    },
+    "metadataRight": {
+      "x": 1720,
+      "y": 120,
+      "text": "REL. 09.26.2026",
+      "fontSize": 12,
+      "fontWeight": 600,
+      "letterSpacing": "0.12em"
+    },
+    "wordmark": {
+      "x": 70,
+      "y": 170,
+      "w": 1780,
+      "h": 210,
+      "text": "SRIGEN",
+      "fontSize": "13.5vw",
+      "fontWeight": 800,
+      "textAlign": "center",
+      "letterSpacing": "-0.04em"
+    },
+    "centerTiltedCard": {
+      "x": 560,
+      "y": 440,
+      "w": 800,
+      "h": 480,
+      "borderRadius": 28,
+      "bg": "#14110D",
+      "transformPerspective": 1200,
+      "rotation": {
+        "x": -4,
+        "y": 6,
+        "z": -1
+      },
+      "bandVolt": {
+        "w": 50,
+        "h": 480,
+        "bg": "#DEF86F"
+      },
+      "topLabel": "HANDLE WITH HYPE",
+      "subLabel": "US 4\u201313 \u00b7 UNISEX",
+      "barcode": {
+        "x": 60,
+        "y": 380,
+        "w": 180,
+        "h": 40
+      }
+    },
+    "lens": {
+      "diameter": 260,
+      "borderRadius": "50%",
+      "border": "2px solid #DEF86F",
+      "boxShadow": "0 0 50px rgba(222, 248, 111, 0.45)",
+      "backdropFilter": "blur(0px)"
+    },
+    "floatingShoeLeft": {
+      "x": 0,
+      "y": 520,
+      "w": 520,
+      "h": 320,
+      "src": "/assets/reference/hero_shoe_left.png"
+    },
+    "floatingShoeRight": {
+      "x": 1400,
+      "y": 520,
+      "w": 520,
+      "h": 320,
+      "src": "/assets/reference/hero_shoe_right.png"
+    },
+    "lensHint": {
+      "x": 820,
+      "y": 940,
+      "text": "RUN YOUR CURSOR OVER THE BOX",
+      "fontSize": 11,
+      "letterSpacing": "0.15em"
+    },
+    "ctaPillBottom": {
+      "x": 860,
+      "y": 970,
+      "w": 200,
+      "h": 54,
+      "borderRadius": 27,
+      "bg": "#DEF86F",
+      "text": "NOTIFY ME"
+    }
+  },
+  "confidence": "MEASURED",
+  "source": "Screenshot 4 & Video frames S01, S05"
+}

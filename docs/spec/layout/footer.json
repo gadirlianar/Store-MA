@@ -1,0 +1,33 @@
+{
+  "sectionId": "footer",
+  "viewport": {
+    "width": 1920,
+    "height": 300
+  },
+  "elements": {
+    "container": {
+      "x": 0,
+      "y": 5380,
+      "w": 1920,
+      "h": 300,
+      "bg": "#EDEBE4",
+      "borderTop": "1px solid rgba(20, 17, 13, 0.08)"
+    },
+    "brandNotice": {
+      "x": 70,
+      "y": 100,
+      "text": "* SRIGEN INDUSTRIES \u2014 NO RESTOCK. EVER.",
+      "fontSize": 13,
+      "color": "#76746E"
+    },
+    "backToTop": {
+      "x": 1750,
+      "y": 100,
+      "text": "BACK TO TOP \u2191",
+      "fontSize": 12,
+      "fontWeight": 600
+    }
+  },
+  "confidence": "MEASURED",
+  "source": "Video frames & fullpage panorama"
+}

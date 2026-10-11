@@ -1,0 +1,74 @@
+{
+  "sectionId": "section06",
+  "viewport": {
+    "width": 1920,
+    "height": 1050
+  },
+  "elements": {
+    "container": {
+      "x": 0,
+      "y": 2100,
+      "w": 1920,
+      "h": 1050,
+      "position": "relative"
+    },
+    "eyebrow": {
+      "x": 70,
+      "y": 80,
+      "text": "\u25cf 06 \u2014 ANATOMY, TEASED",
+      "fontSize": 12,
+      "letterSpacing": "0.12em"
+    },
+    "actionLink": {
+      "x": 1700,
+      "y": 80,
+      "text": "FULL TEARDOWN \u2192",
+      "fontSize": 12,
+      "fontWeight": 600
+    },
+    "cardContainer": {
+      "x": 465,
+      "y": 160,
+      "w": 990,
+      "h": 718,
+      "borderRadius": 28,
+      "bg": "#CBE464",
+      "src": "/assets/reference/anatomy_card.png"
+    },
+    "figCaption": {
+      "x": 505,
+      "y": 830,
+      "text": "FIG. 001-A \u2014 LATERAL VIEW",
+      "fontSize": 11,
+      "letterSpacing": "0.1em"
+    },
+    "callouts": [
+      {
+        "title": "UPPER",
+        "sub": "Full-grain suede + abrasion knit",
+        "x": 240,
+        "y": 240
+      },
+      {
+        "title": "SR-FOAM\u2122 SOLE",
+        "sub": "Dual-density \u00b7 34% rebound",
+        "x": 240,
+        "y": 680
+      },
+      {
+        "title": "LACES",
+        "sub": "Waxed cotton, volt dip",
+        "x": 1500,
+        "y": 280
+      },
+      {
+        "title": "EDITION",
+        "sub": "001 / 300 \u2014 laser-etched",
+        "x": 1500,
+        "y": 660
+      }
+    ]
+  },
+  "confidence": "MEASURED",
+  "source": "Screenshot 1 (Screenshot 2026-10-11 at 10.29.56 AM.png)"
+}
