@@ -13,7 +13,6 @@ interface HeaderProps {
 
 export default function Header({
   onOpenNotify,
-  activeSection = "hero",
   showBag = false,
 }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,17 +34,17 @@ export default function Header({
       id="main-header"
       className={`fixed top-0 left-0 w-full z-40 transition-all duration-300 ${
         isScrolled
-          ? "bg-[#EDEBE4]/90 backdrop-blur-md border-b border-[#14110D]/10 py-4 shadow-sm"
-          : "bg-transparent py-6"
+          ? "bg-[#F1ECE5]/85 backdrop-blur-md border-b border-[#0B0905]/10 py-3 shadow-sm"
+          : "bg-transparent py-5"
       }`}
     >
-      <div className="max-w-[1920px] mx-auto px-8 md:px-16 flex items-center justify-between">
-        {/* Brand / Logo */}
-        <Link href="/" className="flex items-center gap-2 group cursor-pointer">
-          <span className="font-extrabold text-2xl tracking-tighter text-[#14110D]">
+      <div className="max-w-[1920px] mx-auto px-6 sm:px-10 lg:px-16 flex items-center justify-between">
+        {/* Brand / Logo with 001 Badge */}
+        <Link href="/" className="flex items-center gap-2.5 group cursor-pointer">
+          <span className="font-black text-2xl tracking-tighter text-[#0B0905]">
             SRIGEN
           </span>
-          <span className="bg-[#DEF86F] text-[#14110D] font-bold text-[11px] px-2 py-0.5 rounded-full tracking-wider">
+          <span className="bg-[#D1F744] text-[#0B0905] text-[10px] font-mono font-black px-2 py-0.5 rounded-full">
             001
           </span>
         </Link>
@@ -54,44 +53,37 @@ export default function Header({
         <nav className="hidden md:flex items-center gap-8 lg:gap-10">
           {isLanding ? (
             [
-              { id: "hero", label: "THE DROP" },
-              { id: "anatomy", label: "ANATOMY" },
-              { id: "lookbook", label: "LOOKBOOK" },
-              { id: "details", label: "STORY" },
-            ].map((item) => {
-              const isActive = activeSection === item.id;
-              return (
-                <a
-                  key={item.id}
-                  href={`#${item.id}`}
-                  className="relative py-1 text-xs font-semibold tracking-wider text-[#14110D] transition-opacity hover:opacity-100 uppercase"
-                >
-                  <span className={isActive ? "opacity-100 font-bold" : "opacity-80"}>
-                    {item.label}
-                  </span>
-                  {isActive && (
-                    <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#DEF86F]" />
-                  )}
-                </a>
-              );
-            })
+              { href: "/#hero", label: "THE DROP" },
+              { href: "/shop", label: "ALL SHOES" },
+              { href: "/#section02", label: "ANATOMY" },
+              { href: "/lookbook", label: "LOOKBOOK" },
+              { href: "/story", label: "STORY" },
+            ].map((item) => (
+              <Link
+                key={item.label}
+                href={item.href}
+                className="relative py-1 text-xs font-bold tracking-wider text-[#0B0905] hover:opacity-100 uppercase transition-opacity opacity-85"
+              >
+                {item.label}
+              </Link>
+            ))
           ) : (
             [
               { href: "/#hero", label: "THE DROP", active: false },
               { href: "/shop", label: "ALL SHOES", active: pathname === "/shop" || pathname.startsWith("/shop/") },
-              { href: "/#lookbook", label: "LOOKBOOK", active: false },
+              { href: "/lookbook", label: "LOOKBOOK", active: pathname === "/lookbook" },
               { href: "/story", label: "STORY", active: pathname === "/story" },
             ].map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="relative py-1 text-xs font-semibold tracking-wider text-[#14110D] transition-opacity hover:opacity-100 uppercase"
+                className="relative py-1 text-xs font-bold tracking-wider text-[#0B0905] transition-opacity hover:opacity-100 uppercase"
               >
-                <span className={item.active ? "opacity-100 font-bold" : "opacity-80"}>
+                <span className={item.active ? "opacity-100 font-black" : "opacity-75"}>
                   {item.label}
                 </span>
                 {item.active && (
-                  <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#DEF86F]" />
+                  <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#D1F744]" />
                 )}
               </Link>
             ))
@@ -104,10 +96,10 @@ export default function Header({
             <button
               onClick={() => setIsBagOpen(true)}
               aria-label={`Shopping bag with ${itemCount} items`}
-              className="flex items-center gap-2 bg-[#111111] hover:bg-black text-white px-4 py-2.5 rounded-full text-xs font-bold transition-all shadow-sm cursor-pointer"
+              className="flex items-center gap-2 bg-[#0B0905] hover:bg-black text-white px-4 py-2 rounded-full text-xs font-bold transition-all shadow-sm cursor-pointer"
             >
               <svg
-                className="w-3.5 h-3.5 text-[#DEF86F]"
+                className="w-3.5 h-3.5 text-[#D1F744]"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -118,14 +110,14 @@ export default function Header({
                 <path d="M16 10a4 4 0 0 1-8 0" />
               </svg>
               <span className="uppercase font-mono text-[11px] tracking-wider">BAG</span>
-              <span className="bg-[#DEF86F] text-[#111111] font-mono font-bold text-[10px] w-4 h-4 rounded-full flex items-center justify-center">
+              <span className="bg-[#D1F744] text-[#0B0905] font-mono font-bold text-[10px] w-4 h-4 rounded-full flex items-center justify-center">
                 {itemCount}
               </span>
             </button>
           ) : (
             <button
               onClick={onOpenNotify}
-              className="bg-[#DEF86F] hover:bg-[#d5f35b] text-[#14110D] font-bold text-xs tracking-wider px-6 py-3 rounded-full transition-all duration-200 hover:scale-[1.03] active:scale-[0.98] cursor-pointer shadow-sm uppercase"
+              className="bg-[#D1F744] hover:bg-[#c2e838] text-[#0B0905] font-black text-xs tracking-wider px-5 py-2.5 rounded-full transition-all duration-200 hover:scale-[1.03] active:scale-[0.98] cursor-pointer shadow-sm uppercase"
             >
               NOTIFY ME
             </button>

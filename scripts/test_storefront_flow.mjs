@@ -59,7 +59,7 @@ async function testStorefront() {
     await continueBtn.click();
     await page.waitForTimeout(300);
   }
-  const placeOrderBtn = page.locator('button:has-text("PLACE DEMO ORDER")');
+  const placeOrderBtn = page.locator('button:has-text("COMPLETE ORDER"), button:has-text("PLACE DEMO ORDER")');
   await placeOrderBtn.click();
   await page.waitForURL(/order-confirmation/, { timeout: 5000 });
   console.log("   Arrived at URL:", page.url());

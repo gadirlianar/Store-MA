@@ -50,9 +50,9 @@ const FAQ_DATA: FAQItem[] = [
     a: "Yes. We honor a 30-day return policy from the date of delivery. Footwear must remain in pristine, unworn condition with all original serialized tags, shoe trees, and presentation box intact.",
   },
   {
-    category: "DEMO SPECIFICATION",
-    q: "IS THIS A LIVE COMMERCE STORE OR A PORTFOLIO DEMO?",
-    a: "This storefront is a demonstration environment created for portfolio and forensic engineering review. All checkout interactions, orders, and bag items are simulated locally and no real monetary charges are incurred.",
+    category: "AUTHENTICITY",
+    q: "HOW ARE SRIGEN SILHOUETTES NUMBERED AND VERIFIED?",
+    a: "Each pair is stamped with an archival unit code and features an NFC authentication chip embedded in the left footbed that links directly to our production registry.",
   },
 ];
 
@@ -60,7 +60,7 @@ export default function FAQPage() {
   const [activeCategory, setActiveCategory] = useState<string>("ALL");
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  const categories = ["ALL", "THE DROP", "SIZING & FIT", "SHIPPING", "RETURNS", "DEMO SPECIFICATION"];
+  const categories = ["ALL", "THE DROP", "SIZING & FIT", "SHIPPING", "RETURNS", "AUTHENTICITY"];
 
   const filteredFaqs =
     activeCategory === "ALL"

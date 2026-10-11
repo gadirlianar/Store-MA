@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { DEMO_MODE } from "@/lib/constants";
+
 
 export default function Footer() {
   const [newsletterEmail, setNewsletterEmail] = useState("");
@@ -27,44 +27,38 @@ export default function Footer() {
         {/* Top Grid: Brand & Newsletter + Link Columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10">
           {/* Brand & Newsletter Column (2 Cols) */}
-          <div className="lg:col-span-2 flex flex-col gap-4">
-            <Link href="/" className="flex items-center gap-2">
+          <div className="lg:col-span-2 flex flex-col gap-6">
+            <Link href="/" className="flex items-center gap-2.5">
               <span className="font-extrabold text-2xl tracking-tighter text-[#14110D]">
                 SRIGEN
               </span>
-              <span className="bg-[#DEF86F] text-[#14110D] font-bold text-[11px] px-2 py-0.5 rounded-full tracking-wider">
+              <span className="bg-[#DEF86F] text-[#14110D] font-bold text-[11px] px-2.5 py-0.5 rounded-full tracking-wider">
                 001
               </span>
             </Link>
-            <p className="text-xs text-[#6B6A65] max-w-sm leading-relaxed">
-              Ultra-limited technical footwear engineered with SR-FOAM core dampening. Handcrafted in numbered runs of 300 pairs.
-            </p>
 
-            {/* Newsletter Stub */}
-            <form onSubmit={handleNewsletterSubmit} className="mt-2 flex flex-col gap-2 max-w-sm">
+            {/* Streamlined Newsletter */}
+            <form onSubmit={handleNewsletterSubmit} className="flex flex-col gap-2 max-w-sm">
               <label htmlFor="newsletter-input" className="text-[11px] font-mono uppercase tracking-wider font-bold text-[#6B6A65]">
-                EXCLUSIVE DROP NOTIFICATIONS
+                DROP NOTIFICATIONS
               </label>
-              <div className="flex gap-2">
+              <div className="relative flex items-center">
                 <input
                   id="newsletter-input"
                   type="email"
                   required
                   value={newsletterEmail}
                   onChange={(e) => setNewsletterEmail(e.target.value)}
-                  placeholder="enter email address"
-                  className="flex-1 bg-white border border-black/10 rounded-full px-4 py-2.5 text-xs text-[#111111] focus:outline-none focus:ring-2 focus:ring-[#DEF86F] placeholder:text-black/30 font-mono"
+                  placeholder="enter email address..."
+                  className="w-full bg-white border border-[#14110D]/10 rounded-full pl-5 pr-24 py-2.5 text-xs text-[#111111] focus:outline-none focus:ring-2 focus:ring-[#DEF86F] placeholder:text-black/30 font-mono shadow-sm"
                 />
                 <button
                   type="submit"
-                  className="bg-[#111111] hover:bg-black text-[#DEF86F] font-bold text-xs uppercase px-5 py-2.5 rounded-full transition-all cursor-pointer whitespace-nowrap"
+                  className="absolute right-1 bg-[#111111] hover:bg-black text-[#DEF86F] font-bold text-xs uppercase px-5 py-2 rounded-full transition-all cursor-pointer whitespace-nowrap"
                 >
                   {newsletterStatus === "success" ? "JOINED ✓" : "JOIN"}
                 </button>
               </div>
-              <span className="text-[10px] text-[#6B6A65] font-mono">
-                * Demo form stub — no marketing emails are dispatched.
-              </span>
             </form>
           </div>
 
@@ -119,13 +113,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/shop/apex-trail" className="hover:text-black transition-colors">
-                  Apex Trail
+                <Link href="/shop/terra-247" className="hover:text-black transition-colors">
+                  Terra 247
                 </Link>
               </li>
               <li>
-                <Link href="/shop/shatter" className="hover:text-black transition-colors">
-                  Shatter
+                <Link href="/shop/court-prime" className="hover:text-black transition-colors">
+                  Court Prime
                 </Link>
               </li>
               <li>
@@ -181,37 +175,98 @@ export default function Footer() {
                   Terms of Service
                 </Link>
               </li>
-              <li>
-                <span className="text-[11px] font-mono text-[#DEF86F] bg-[#111111] px-2 py-0.5 rounded-full w-fit">
-                  DEMO MODE ACTIVE
-                </span>
-              </li>
             </ul>
           </div>
         </div>
 
-        {/* Demo Mode Notice Banner */}
-        {DEMO_MODE && (
-          <div className="p-3.5 bg-black/5 rounded-2xl border border-black/5 text-center text-xs font-mono text-[#6B6A65]">
-            <strong className="text-[#14110D]">DEMO NOTICE:</strong> This is a forensic demonstration storefront. No orders are fulfilled and no financial transactions are processed.
+        {/* Bottom Bar: Social Channels & Back to Top */}
+        <div className="pt-8 border-t border-[#14110D]/10 flex flex-col lg:flex-row items-center justify-between gap-6 text-xs">
+          {/* Social Media Links with Exact Official Vector SVGs & High-Contrast Streetwear Luxury Styling */}
+          <div className="flex flex-wrap items-center gap-2 sm:gap-2.5">
+            {[
+              {
+                name: "Instagram",
+                label: "INSTAGRAM",
+                href: "https://instagram.com/srigen",
+                icon: (
+                  <svg className="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+                  </svg>
+                ),
+              },
+              {
+                name: "X",
+                label: "X",
+                href: "https://x.com/srigen",
+                icon: (
+                  <svg className="w-3.5 h-3.5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                  </svg>
+                ),
+              },
+              {
+                name: "TikTok",
+                label: "TIKTOK",
+                href: "https://tiktok.com/@srigen",
+                icon: (
+                  <svg className="w-3.5 h-3.5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.85.12V9.32a6.34 6.34 0 0 0-.85-.06 6.34 6.34 0 1 0 6.34 6.34V8.76a8.27 8.27 0 0 0 3.77.92V6.69z" />
+                  </svg>
+                ),
+              },
+              {
+                name: "YouTube",
+                label: "YOUTUBE",
+                href: "https://youtube.com/@srigen",
+                icon: (
+                  <svg className="w-3.5 h-3.5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                  </svg>
+                ),
+              },
+            ].map((social) => (
+              <a
+                key={social.name}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-[#14110D] text-[#EDEBE4] hover:bg-[#D1F744] hover:text-[#0B0905] px-3.5 py-2 rounded-full text-[11px] font-mono font-bold tracking-wider transition-colors duration-150 cursor-pointer shadow-sm uppercase select-none"
+              >
+                {social.icon}
+                <span>{social.label}</span>
+                <span className="text-[10px] opacity-70">↗</span>
+              </a>
+            ))}
           </div>
-        )}
 
-        {/* Bottom Bar: Copyright & Back to Top */}
-        <div className="pt-6 border-t border-[#14110D]/10 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs font-semibold tracking-wider text-[#76746E]">
-          <div>
-            <span>* SRIGEN INDUSTRIES — NO RESTOCK. EVER.</span>
-          </div>
-
-          <div className="flex items-center gap-8">
-            <span className="opacity-60 font-mono">SRIGEN-001 // DROP 2026</span>
+          {/* Right: Back to top */}
+          <div className="flex items-center gap-6">
             <button
               onClick={scrollToTop}
-              className="text-[#14110D] font-bold tracking-widest uppercase hover:opacity-70 transition-opacity cursor-pointer"
+              className="flex items-center gap-2 bg-[#14110D] text-[#D1F744] hover:bg-black hover:text-white px-5 py-2.5 rounded-full font-mono text-[11px] font-bold tracking-widest uppercase transition-colors duration-150 cursor-pointer shadow-sm select-none"
             >
-              BACK TO TOP ↑
+              <span>BACK TO TOP</span>
+              <span>↑</span>
             </button>
           </div>
+        </div>
+
+        {/* Creator Signature / Credit — Prominent, Prestigious & High Fashion */}
+        <div className="pt-10 border-t border-[#14110D]/10 flex flex-col items-center justify-center gap-3 text-center">
+          <div className="inline-flex items-center gap-3.5 bg-white/80 border border-[#14110D]/10 px-8 py-3 rounded-full shadow-sm hover:scale-105 transition-transform duration-200">
+            <span className="w-2.5 h-2.5 rounded-full bg-[#DEF86F] animate-pulse shadow-sm" />
+            <span className="text-[11px] font-mono tracking-[0.25em] uppercase text-[#76746E]">
+              DIRECTED & CRAFTED BY
+            </span>
+            <span className="text-sm font-black tracking-[0.2em] text-[#14110D] uppercase">
+              ANAR GADIRLI
+            </span>
+          </div>
+          <p className="text-[10px] font-mono tracking-[0.3em] text-[#76746E]/70 uppercase">
+            SRIGEN ARCHIVES · PARIS / NEW YORK / TOKYO · ALL RIGHTS RESERVED © 2026
+          </p>
         </div>
       </div>
     </footer>

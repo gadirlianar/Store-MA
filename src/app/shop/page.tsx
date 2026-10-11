@@ -7,7 +7,6 @@ import { useSearchParams, useRouter } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ShoelaceCursor from "@/components/ShoelaceCursor";
-import AudioToggle from "@/components/AudioToggle";
 import { PRODUCTS, Product } from "@/data/products";
 
 function ShopContent() {
@@ -84,9 +83,8 @@ function ShopContent() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F4F3ED] text-[#111111] font-sans selection:bg-[#D4FF00] selection:text-black">
+    <div className="min-h-screen bg-[#F1ECE5] text-[#0B0905] font-sans selection:bg-[#D1F744] selection:text-[#0B0905]">
       <ShoelaceCursor />
-      <AudioToggle />
       <Header />
 
       <main className="max-w-[1440px] mx-auto pt-32 pb-24 px-6 sm:px-12 lg:px-16">

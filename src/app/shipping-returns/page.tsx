@@ -156,7 +156,7 @@ export default function ShippingReturnsPage() {
               </span>
               <h4 className="font-black text-sm uppercase mt-2">Print Label</h4>
               <p className="text-xs text-[#6B6A65] leading-relaxed">
-                Access your demo portal or concierge email to generate your prepaid digital return waybill.
+                Access your order portal or concierge email to generate your prepaid digital return waybill.
               </p>
             </div>
 

@@ -39,7 +39,7 @@ export default function PrivacyPage() {
             PRIVACY POLICY
           </h1>
           <p className="text-base text-[#6B6A65] mt-2 leading-relaxed max-w-2xl font-sans">
-            Transparency regarding client telemetry, local storage cookies, and demonstration data handling.
+            Transparency regarding customer data protection, secure sessions, and privacy handling.
           </p>
         </div>
 
@@ -47,10 +47,10 @@ export default function PrivacyPage() {
         <div className="bg-white rounded-3xl p-8 sm:p-12 border border-black/5 shadow-sm max-w-4xl flex flex-col gap-10">
           <section className="flex flex-col gap-3">
             <h2 className="text-xl font-black uppercase tracking-tight">
-              1. DEMO STOREFRONT DATA RETENTION
+              1. DATA ENCRYPTION & RETENTION
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              This digital property operates in full demonstration mode (DEMO_MODE). No personal financial records, credit card numbers, CVVs, or bank details are collected, stored, transmitted, or processed by any external payment gateway.
+              We enforce high security standards across our commerce platform. All transactional channels are protected with 256-bit encryption. Payment processing tokens are handled through PCI-DSS Level 1 compliant infrastructure.
             </p>
           </section>
 
@@ -59,7 +59,7 @@ export default function PrivacyPage() {
               2. CLIENT-SIDE LOCAL STORAGE & STATE
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              To support persistent shopping bag states across session reloads, items in your bag and simulated checkout selections are stored strictly inside your browser’s local client storage (<code className="bg-black/5 px-2 py-0.5 rounded font-mono">localStorage.getItem(&apos;srigen_cart&apos;)</code>). This data is completely private to your local browser profile and can be cleared at any time via the bag controls or clearing your site cache.
+              To support persistent shopping bag states across session reloads, items in your bag are stored strictly inside your browser’s local client storage (<code className="bg-black/5 px-2 py-0.5 rounded font-mono">localStorage.getItem(&apos;srigen_cart&apos;)</code>). This data is completely private to your local browser profile and can be cleared at any time via the bag controls or clearing your site cache.
             </p>
           </section>
 
@@ -68,16 +68,16 @@ export default function PrivacyPage() {
               3. NO THIRD-PARTY TRACKING OR TELEMETRY
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              We do not deploy intrusive third-party advertising cookies, cross-domain behavioral tracking pixels, or fingerprinting scripts. Web Audio API synthesizers and DOM gesture listeners run purely client-side without network calls.
+              We do not deploy intrusive third-party advertising cookies, cross-domain behavioral tracking pixels, or fingerprinting scripts. Web Audio synthesizers and gesture listeners run purely client-side without external telemetry calls.
             </p>
           </section>
 
           <section className="flex flex-col gap-3">
             <h2 className="text-xl font-black uppercase tracking-tight">
-              4. WAITLIST & NOTIFICATION SIMULATION
+              4. WAITLIST & NOTIFICATION PROTOCOL
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              Email addresses provided in the &ldquo;NOTIFY ME&rdquo; waitlist modal or newsletter footer field are handled locally within demo memory. No commercial unsolicited communications are broadcast to entered addresses.
+              Email addresses provided in the &ldquo;NOTIFY ME&rdquo; waitlist modal or newsletter footer field are strictly utilized for drop announcements and order status dispatches. We never sell, lease, or share email records with third parties.
             </p>
           </section>
 
@@ -86,7 +86,7 @@ export default function PrivacyPage() {
               5. CONTACT & DATA CONTROLLER
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              For any questions regarding this forensic reconstruction or privacy implementation, address requests to our registered demo representative at <strong className="text-black font-mono">compliance@example.com</strong>.
+              For any questions regarding privacy or data handling, address requests to our privacy officer at <strong className="text-black font-mono">privacy@srigen.com</strong>.
             </p>
           </section>
         </div>

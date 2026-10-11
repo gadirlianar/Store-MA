@@ -7,34 +7,26 @@ export default function Lookbook() {
   return (
     <section
       id="lookbook"
-      className="relative w-full h-screen min-h-[1080px] overflow-hidden select-none"
+      className="relative w-full h-[90vh] min-h-[720px] max-h-[1080px] overflow-hidden select-none bg-[#14110D]"
     >
-      {/* Full-bleed street photo background matching reference */}
+      {/* Full-bleed street photo background */}
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="/assets/reference/lookbook_photo.png"
-          alt="001 IN THE WILD · FRAME 02 street lookbook photography"
+          src="/assets/reference/lookbook_golden_hour.jpg"
+          alt="SRIGEN 001 IN THE WILD · Golden Hour Editorial"
           fill
           className="w-full h-full object-cover object-center"
           priority
         />
-        {/* Subtle vignette gradient at bottom */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
+        {/* Subtle cinematic gradient vignette */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30 pointer-events-none" />
       </div>
 
       {/* Floating Bottom-Left Caption */}
-      <div className="absolute bottom-16 left-16 z-20 flex flex-col items-start">
-        <div className="bg-[#DEF86F] text-[#14110D] font-extrabold text-xs tracking-wider px-6 py-2.5 rounded-full uppercase shadow-lg">
+      <div className="absolute bottom-12 left-8 md:bottom-16 md:left-16 z-20">
+        <div className="bg-[#DEF86F] text-[#14110D] font-extrabold text-xs tracking-wider px-6 py-2.5 rounded-full uppercase shadow-xl hover:scale-105 transition-transform duration-200">
           GOLDEN HOUR, GOLD PAIR
         </div>
-        <p className="text-white text-xs font-bold tracking-widest uppercase mt-4 drop-shadow-md">
-          001 IN THE WILD · FRAME 02
-        </p>
-      </div>
-
-      {/* Top Right Lookbook Marker */}
-      <div className="absolute top-16 right-16 z-20 text-white/80 text-xs font-semibold tracking-widest uppercase">
-        <span>LOOKBOOK · VOL. 01</span>
       </div>
     </section>
   );

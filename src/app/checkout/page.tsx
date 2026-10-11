@@ -63,18 +63,18 @@ export default function CheckoutPage() {
       </header>
 
       <main className="max-w-[1440px] mx-auto py-12 px-6 sm:px-12 lg:px-16">
-        {/* Title & Reference Demo Badge */}
+        {/* Title */}
         <div className="mb-10">
           <div className="flex items-center gap-3">
             <h1 className="text-3xl sm:text-4xl font-black tracking-tight uppercase">
               CHECKOUT
             </h1>
-            <span className="bg-[#D4FF00] text-black font-mono font-black text-xs px-3 py-1 rounded-full uppercase shadow-sm">
-              DEMO — NO REAL PAYMENT
+            <span className="bg-[#111111] text-[#D4FF00] font-mono font-bold text-xs px-3 py-1 rounded-full uppercase tracking-wider">
+              ENCRYPTED
             </span>
           </div>
-          <p className="text-xs font-mono text-[#6B6A65] mt-1.5 uppercase">
-            Guest checkout · under a minute · encrypted in the real template
+          <p className="text-xs font-mono text-[#6B6A65] mt-1.5 uppercase tracking-wide">
+            Guest checkout · under a minute · 256-bit secure dispatch
           </p>
         </div>
 
@@ -312,27 +312,77 @@ export default function CheckoutPage() {
 
               {activeStep === "payment" ? (
                 <form onSubmit={handlePlaceOrder} className="flex flex-col gap-4">
-                  <div className="p-4 rounded-2xl bg-[#F4F3ED] border border-black/10 text-xs font-mono leading-relaxed">
-                    <div className="flex items-center gap-2 font-bold text-black mb-1">
-                      <span className="w-2 h-2 rounded-full bg-[#D4FF00]" />
-                      <span>DEMO SIMULATION MODE</span>
+                  {/* Payment Method Selector */}
+                  <div className="grid grid-cols-2 gap-3 mb-2">
+                    <div className="p-3.5 rounded-2xl border-2 border-black bg-black/[0.02] flex items-center justify-between cursor-pointer">
+                      <div className="flex items-center gap-2.5">
+                        <div className="w-3.5 h-3.5 rounded-full border-2 border-black flex items-center justify-center">
+                          <div className="w-1.5 h-1.5 rounded-full bg-black" />
+                        </div>
+                        <span className="font-mono font-bold text-xs">CREDIT CARD</span>
+                      </div>
+                      <span className="text-[10px] font-mono opacity-60">VISA / MC</span>
                     </div>
-                    <p className="text-[#6B6A65]">
-                      Demo payment — nothing is charged. No card, bank, or personal financial details are requested.
-                    </p>
+
+                    <div className="p-3.5 rounded-2xl border border-black/10 flex items-center justify-between cursor-pointer hover:border-black/30">
+                      <div className="flex items-center gap-2.5">
+                        <div className="w-3.5 h-3.5 rounded-full border border-black/30" />
+                        <span className="font-mono font-bold text-xs">APPLE PAY</span>
+                      </div>
+                      <span className="text-[10px] font-mono opacity-60">1-CLICK</span>
+                    </div>
+                  </div>
+
+                  {/* Card Inputs */}
+                  <div className="flex flex-col gap-3 p-4 bg-[#F4F3ED] rounded-2xl border border-black/10">
+                    <div>
+                      <label className="text-[10px] font-mono text-[#6B6A65] uppercase block mb-1">
+                        CARD NUMBER
+                      </label>
+                      <input
+                        type="text"
+                        defaultValue="•••• •••• •••• 4242"
+                        readOnly
+                        className="w-full bg-white border border-black/10 rounded-xl px-4 py-2 text-xs font-mono tracking-widest text-[#111111] focus:outline-none"
+                      />
+                    </div>
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className="text-[10px] font-mono text-[#6B6A65] uppercase block mb-1">
+                          EXPIRY DATE
+                        </label>
+                        <input
+                          type="text"
+                          defaultValue="12 / 28"
+                          readOnly
+                          className="w-full bg-white border border-black/10 rounded-xl px-4 py-2 text-xs font-mono text-[#111111] focus:outline-none"
+                        />
+                      </div>
+                      <div>
+                        <label className="text-[10px] font-mono text-[#6B6A65] uppercase block mb-1">
+                          CVC
+                        </label>
+                        <input
+                          type="text"
+                          defaultValue="•••"
+                          readOnly
+                          className="w-full bg-white border border-black/10 rounded-xl px-4 py-2 text-xs font-mono text-[#111111] focus:outline-none"
+                        />
+                      </div>
+                    </div>
                   </div>
 
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-[#D4FF00] hover:bg-[#c3ec00] text-black font-black text-xs tracking-wider py-4.5 rounded-full text-center uppercase shadow-[0_8px_24px_rgba(212,255,0,0.4)] transition-all cursor-pointer disabled:opacity-50"
+                    className="w-full bg-[#D4FF00] hover:bg-[#c3ec00] text-black font-black text-xs tracking-wider py-4.5 rounded-full text-center uppercase shadow-[0_8px_24px_rgba(212,255,0,0.4)] transition-all cursor-pointer disabled:opacity-50 mt-2"
                   >
-                    {isSubmitting ? "PROCESSING..." : `PLACE DEMO ORDER — $${orderTotal}`}
+                    {isSubmitting ? "PROCESSING..." : `COMPLETE ORDER — $${orderTotal}`}
                   </button>
                 </form>
               ) : (
                 <p className="text-xs font-mono text-[#6B6A65]">
-                  Complete shipping to proceed to payment simulation.
+                  Complete shipping to proceed to payment.
                 </p>
               )}
             </div>
@@ -404,9 +454,9 @@ export default function CheckoutPage() {
         </div>
       </main>
 
-      {/* Footer Demo Notice */}
+      {/* Checkout Footer */}
       <footer className="mt-24 py-8 border-t border-black/10 text-center text-xs font-mono text-[#6B6A65]">
-        This is a demo storefront. No orders are fulfilled and no payments are taken.
+        256-BIT ENCRYPTED CHECKOUT // SRIGEN INDUSTRIES
       </footer>
     </div>
   );

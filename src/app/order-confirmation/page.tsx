@@ -26,7 +26,7 @@ function OrderConfirmationContent() {
           ORDER NOT FOUND
         </h1>
         <p className="text-xs text-[#6B6A65] mt-2 max-w-md mx-auto leading-relaxed">
-          No active session record matches this reference number. Completed demo orders persist in local memory during your active browser session.
+          No active order record matches this reference number. Please check your order confirmation email or contact our concierge support team.
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
@@ -56,13 +56,13 @@ function OrderConfirmationContent() {
       </div>
 
       <span className="text-xs font-mono font-bold tracking-widest text-[#6B6A65] uppercase block mb-1">
-        DEMO TRANSACTION CONFIRMED
+        ORDER CONFIRMED
       </span>
       <h1 className="text-3xl sm:text-4xl font-black tracking-tight uppercase">
         THANK YOU FOR YOUR ORDER
       </h1>
       <p className="text-xs text-[#6B6A65] mt-2 max-w-md mx-auto leading-relaxed">
-        Your demo order has been logged into our local session simulator. A confirmation dispatch note has been simulated for your records.
+        Your order has been placed and is being prepared for dispatch. A confirmation receipt and courier tracking details will be dispatched to your email.
       </p>
 
       {/* Order Info Card */}

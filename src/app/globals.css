@@ -45,10 +45,10 @@ body {
   padding: 0;
 }
 
-/* Hide default cursor on desktop when custom cursor is active */
+/* Hide default cursor on desktop when custom shoelace cursor is active */
 @media (pointer: fine) {
-  body {
-    cursor: default;
+  html, body, a, button, input, [role="button"] {
+    cursor: none !important;
   }
 }
 

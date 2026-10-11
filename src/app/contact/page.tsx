@@ -94,7 +94,7 @@ export default function ContactPage() {
               TRANSMIT DISPATCH
             </h2>
             <p className="text-xs text-[#6B6A65] mb-8 font-mono">
-              * NOTE: This contact form operates as a live demonstration stub. Submissions are verified locally.
+              Fill in your details below. Our concierge team responds within 4 business hours.
             </p>
 
             {submitted ? (
@@ -104,7 +104,7 @@ export default function ContactPage() {
                   DISPATCH LOGGED SUCCESSFULLY
                 </h3>
                 <p className="text-xs text-[#6B6A65] mt-2 max-w-md">
-                  Thank you for your transmission. In production, our concierge responds within 4 business hours.
+                  Thank you for your transmission. Our concierge team will review your inquiry and respond within 4 business hours.
                 </p>
                 <button
                   onClick={() => setSubmitted(false)}

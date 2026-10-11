@@ -22,33 +22,39 @@ interface CartContextType {
   justAdded: boolean;
 }
 
+const DEFAULT_ITEMS: CartItem[] = (() => {
+  const ghost = PRODUCTS.find((p) => p.slug === "ghost-runner");
+  const shatter = PRODUCTS.find((p) => p.slug === "shatter");
+  if (ghost && shatter) {
+    return [
+      { product: ghost, size: 9, quantity: 1 },
+      { product: shatter, size: 10, quantity: 1 },
+    ];
+  }
+  return [];
+})();
+
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
-  const [items, setItems] = useState<CartItem[]>(() => {
-    if (typeof window === "undefined") return [];
+  const [items, setItems] = useState<CartItem[]>(DEFAULT_ITEMS);
+  const [isBagOpen, setIsBagOpen] = useState(false);
+  const [justAdded, setJustAdded] = useState(false);
+
+  // Load from localStorage on mount after hydration
+  useEffect(() => {
     try {
       const saved = localStorage.getItem("srigen_cart");
       if (saved) {
-        return JSON.parse(saved);
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) {
+          setItems(parsed);
+        }
       }
     } catch {
-      // Fallback
+      // Storage access error
     }
-    // Initial default matching checkout screenshot (Ghost Runner US 9 $160 + Shatter US 10 $170 = $330)
-    const ghost = PRODUCTS.find((p) => p.slug === "ghost-runner");
-    const shatter = PRODUCTS.find((p) => p.slug === "shatter");
-    if (ghost && shatter) {
-      return [
-        { product: ghost, size: 9, quantity: 1 },
-        { product: shatter, size: 10, quantity: 1 },
-      ];
-    }
-    return [];
-  });
-
-  const [isBagOpen, setIsBagOpen] = useState(false);
-  const [justAdded, setJustAdded] = useState(false);
+  }, []);
 
   // Save to localStorage
   useEffect(() => {

@@ -14,7 +14,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "SRIGEN // 001 LIMITED EDITION DROP",
   description:
-    "SRIGEN 001. Limited to 300 pairs worldwide. US 4–13 · Unisex. Rel. 09.26.2026. No restock. Ever.",
+    "SRIGEN 001. Limited to 300 numbered pairs worldwide. Ultra-limited technical footwear engineered with SR-FOAM core dampening. US 4–13 · Unisex.",
   robots: {
     index: false,
     follow: false,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   keywords: ["SRIGEN", "001", "Sneaker Drop", "Limited Edition", "SR-FOAM"],
   openGraph: {
     title: "SRIGEN // 001 LIMITED EDITION DROP",
-    description: "Limited to 300 numbered pairs worldwide. No restock. Ever.",
+    description: "Limited to 300 numbered pairs worldwide. Ultra-limited technical footwear.",
     type: "website",
   },
 };

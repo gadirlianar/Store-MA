@@ -39,7 +39,7 @@ export default function TermsPage() {
             TERMS OF SERVICE
           </h1>
           <p className="text-base text-[#6B6A65] mt-2 leading-relaxed max-w-2xl font-sans">
-            Drop mechanics, allocation rules, and non-commercial forensic demonstration terms.
+            Drop mechanics, allocation rules, and official purchase terms.
           </p>
         </div>
 
@@ -47,10 +47,10 @@ export default function TermsPage() {
         <div className="bg-white rounded-3xl p-8 sm:p-12 border border-black/5 shadow-sm max-w-4xl flex flex-col gap-10">
           <section className="flex flex-col gap-3">
             <h2 className="text-xl font-black uppercase tracking-tight">
-              1. DEMONSTRATION & NON-COMMERCIAL STATUS
+              1. OFFICIAL DROP PROTOCOL & ALLOCATIONS
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              This website is an engineering reconstruction and demonstration storefront. All product listings, prices ($145, $160, $135, $170), inventory counts, and simulated checkouts are non-binding demo elements. No actual footwear will be dispatched and no commercial debt is incurred.
+              All releases on SRIGEN are conducted according to strict allocation rules. Each silhouette is limited to a verified production batch. Orders are finalized upon successful verification of identity and delivery coordinates.
             </p>
           </section>
 
@@ -79,10 +79,10 @@ export default function TermsPage() {
 
           <section className="flex flex-col gap-3">
             <h2 className="text-xl font-black uppercase tracking-tight">
-              4. INTELLECTUAL PROPERTY & DESIGN ATTRIBUTION
+              4. INTELLECTUAL PROPERTY & DESIGN ARCHIVE
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              SRIGEN, SR-FOAM, and all associated graphic assets, typography lockups, and design system tokens are property of their respective creators and reconstructed herein for technical evaluation and forensic accuracy.
+              SRIGEN, SR-FOAM, and all associated graphic assets, typography lockups, and proprietary materials are protected trademarks and proprietary property of SRIGEN Industries.
             </p>
           </section>
 
@@ -91,7 +91,7 @@ export default function TermsPage() {
               5. JURISDICTION
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6A65] leading-relaxed">
-              Any claims arising out of this demonstration website are governed by the laws of England and Wales, with exclusive jurisdiction in the courts of London, UK.
+              Any claims arising out of orders placed on this platform are governed by the laws of England and Wales, with exclusive jurisdiction in the courts of London, UK.
             </p>
           </section>
         </div>

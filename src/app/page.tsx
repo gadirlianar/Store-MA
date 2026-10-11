@@ -5,7 +5,6 @@ import Lenis from "lenis";
 import Header from "@/components/Header";
 import OpeningSequence from "@/components/OpeningSequence";
 import ShoelaceCursor from "@/components/ShoelaceCursor";
-import AudioToggle from "@/components/AudioToggle";
 import Hero from "@/components/Hero";
 import Section02 from "@/components/Section02";
 import Section06 from "@/components/Section06";
@@ -70,14 +69,11 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative w-full min-h-screen bg-[#F4F3ED] text-[#111111] font-sans selection:bg-[#D4FF00] selection:text-black">
+    <div className="relative w-full min-h-screen bg-[#F1ECE5] text-[#0B0905] font-sans selection:bg-[#D1F744] selection:text-[#0B0905]">
       {/* 1. Custom Shoelace Aglet Cursor Follower */}
       <ShoelaceCursor />
 
-      {/* 2. Floating Ambient Audio Toggle on Right Edge */}
-      <AudioToggle />
-
-      {/* 3. Opening Lacing Preloader Curtain */}
+      {/* 2. Opening Lacing Preloader Curtain */}
       <OpeningSequence />
 
       {/* 4. Global Sticky Header */}

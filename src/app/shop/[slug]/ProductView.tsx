@@ -80,7 +80,7 @@ export default function ProductView({ product }: { product: Product }) {
 
             {/* Thumbnail selector */}
             <div className="flex gap-3">
-              {[product.image, ...product.extraImages].map((img, idx) => (
+              {Array.from(new Set([product.image, ...product.extraImages])).map((img, idx) => (
                 <button
                   key={idx}
                   onClick={() => setActiveImage(img)}
